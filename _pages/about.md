@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-### Experienced in working with large-scale datasets to uncover meaningful patterns and predict trends. I excel at transforming complex data into clear, actionable insights through compelling visualizations and storytelling. My unique background in combining food science with data science enables me to bridge industry knowledge with analytical solutions. 
+## Experienced in working with large-scale datasets to uncover meaningful patterns and predict trends. I excel at transforming complex data into clear, actionable insights through compelling visualizations and storytelling. My unique background in combining food science with data science enables me to bridge industry knowledge with analytical solutions. 
 
 🎯 Seeking roles in: Data Analytics | Data Science | Data Engineering
 ---
