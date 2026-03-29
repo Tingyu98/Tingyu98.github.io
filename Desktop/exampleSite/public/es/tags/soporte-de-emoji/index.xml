@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soporte De Emoji on Hugo Profile</title>
+    <link>http://localhost:1313/es/tags/soporte-de-emoji/</link>
+    <description>Recent content in Soporte De Emoji on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/soporte-de-emoji/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soporte de Emoji</title>
+      <link>http://localhost:1313/es/blogs/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/es/blogs/emoji-support/</guid>
+      <description>&lt;p&gt;Los emoji se pueden habilitar en un proyecto Hugo de varias maneras. :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;soporte-de-emoji&#34;&gt;Soporte de Emoji&lt;/h2&gt;&#xA;&lt;p&gt;La función &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; se puede llamar directamente en las plantillas o &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Shortcodes en línea&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Para habilitar emoji globalmente, establece &lt;code&gt;enableEmoji&lt;/code&gt; en &lt;code&gt;true&lt;/code&gt; en la &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuración&lt;/a&gt; de tu sitio y luego puedes escribir códigos abreviados de emoji directamente en los archivos de contenido; por ejemplo:&lt;/p&gt;&#xA;&lt;p&gt;La &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Hoja de trucos de Emoji&lt;/a&gt; es una referencia útil para los códigos abreviados de emoji.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

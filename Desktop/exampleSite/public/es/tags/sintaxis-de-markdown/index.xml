@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sintaxis De Markdown on Hugo Profile</title>
+    <link>http://localhost:1313/es/tags/sintaxis-de-markdown/</link>
+    <description>Recent content in Sintaxis De Markdown on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/sintaxis-de-markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Renderizar Matemáticas con Mathjax</title>
+      <link>http://localhost:1313/es/blogs/math/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/es/blogs/math/</guid>
+      <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Las ecuaciones matemáticas se pueden renderizar usando la sintaxis de &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; con soporte de símbolos AMS.&lt;/p&gt;&#xA;&lt;p&gt;Opcionalmente, habilita esto por página agregando &lt;code&gt;mathjax: true&lt;/code&gt; a tu frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Luego, usa &lt;code&gt;$$ ... $$&lt;/code&gt; en una línea por sí sola para renderizar una ecuación de bloque:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;La versión sin procesar es:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Escribe ecuaciones en línea con &lt;code&gt;\\( ... \\)&lt;/code&gt; , como \( x^n / y \) . ¡Es fácil!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sintaxis de Markdown</title>
+      <link>http://localhost:1313/es/blogs/markdown-syntax/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/es/blogs/markdown-syntax/</guid>
+      <description>&lt;h2 id=&#34;párrafo&#34;&gt;Párrafo&lt;/h2&gt;&#xA;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido Enriquecido on Hugo Profile</title>
+    <link>http://localhost:1313/tags/contenido-enriquecido/</link>
+    <description>Recent content in Contenido Enriquecido on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Apr 2021 19:53:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/contenido-enriquecido/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contenido Enriquecido</title>
+      <link>http://localhost:1313/es/blogs/rich-content/</link>
+      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/es/blogs/rich-content/</guid>
+      <description>&lt;p&gt;Hugo viene con varios &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#embedded&#34;&gt;Shortcodes Integrados&lt;/a&gt; para contenido enriquecido, junto con una &lt;a href=&#34;https://gohugo.io/about/privacy/#configuration&#34;&gt;Configuración de Privacidad&lt;/a&gt; y un conjunto de Shortcodes Simples que habilitan versiones estáticas y sin JS de varias incrustaciones de redes sociales.&lt;/p&gt;&#xA;&lt;h2 id=&#34;shortcode-simple-de-x&#34;&gt;Shortcode Simple de X&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;&#xA;&lt;!-- Temporarily removed for build --&gt;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;shortcode-simple-de-vimeo&#34;&gt;Shortcode Simple de Vimeo&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; vimeo 146022717 &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;&#xA;&#xA;      &lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/146022717?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;shortcode-gist&#34;&gt;Shortcode gist&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

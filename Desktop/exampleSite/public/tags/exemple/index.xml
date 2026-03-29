@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exemple on Hugo Profile</title>
+    <link>http://localhost:1313/tags/exemple/</link>
+    <description>Recent content in Exemple on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/exemple/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rendre les Mathématiques avec Mathjax</title>
+      <link>http://localhost:1313/fr/blogs/math/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/fr/blogs/math/</guid>
+      <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Les équations mathématiques peuvent être rendues en utilisant la syntaxe &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; avec le support des symboles AMS.&lt;/p&gt;&#xA;&lt;p&gt;Activez ceci de manière optionnelle page par page en ajoutant &lt;code&gt;mathjax: true&lt;/code&gt; à votre frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Ensuite, utilisez &lt;code&gt;$$ ... $$&lt;/code&gt; sur une ligne par elle-même pour rendre une équation de bloc:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;La version brute est:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Syntaxe Markdown</title>
+      <link>http://localhost:1313/fr/blogs/markdown-syntax/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/fr/blogs/markdown-syntax/</guid>
+      <description>&lt;h2 id=&#34;paragraphe&#34;&gt;Paragraphe&lt;/h2&gt;&#xA;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Support des Emoji</title>
+      <link>http://localhost:1313/fr/blogs/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/fr/blogs/emoji-support/</guid>
+      <description>&lt;p&gt;Les emoji peuvent être activés dans un projet Hugo de plusieurs façons. :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;support-des-emoji&#34;&gt;Support des Emoji&lt;/h2&gt;&#xA;&lt;p&gt;La fonction &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; peut être appelée directement dans les modèles ou les &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Shortcodes en ligne&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Pour activer les emoji globalement, définissez &lt;code&gt;enableEmoji&lt;/code&gt; sur &lt;code&gt;true&lt;/code&gt; dans la &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; de votre site, puis vous pouvez taper les codes abrégés d&amp;rsquo;emoji directement dans les fichiers de contenu; par exemple :&lt;/p&gt;&#xA;&lt;p&gt;La &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Feuille de triche Emoji&lt;/a&gt; est une référence utile pour les codes abrégés d&amp;rsquo;emoji.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Texte de Remplissage</title>
+      <link>http://localhost:1313/fr/blogs/placeholder-text/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      <guid>http://localhost:1313/fr/blogs/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;&#xA;&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;&#xA;&lt;li&gt;Duce pollice&lt;/li&gt;&#xA;&lt;li&gt;Eris modo&lt;/li&gt;&#xA;&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
