@@ -42,6 +42,7 @@
                                 id='pills-{{ replaceRE "-+" "-" (replaceRE "[^a-zA-Z0-9]" "-" (print .company "-" $firstJobDate)) | lower }}'
                                 aria-labelledby='{{ replaceRE "-+" "-" (replaceRE "[^a-zA-Z0-9]" "-" (print .company "-" $firstJobDate)) | lower }}-tab'
                             >
+                                {{ if .description }}<p class="mb-3">{{ .description }}</p>{{ end }}
                                 {{ range $jobIdx, $job := .jobs }}
                                     <div>
                                         <div class="d-flex align-items-center justify-content-between">

@@ -312,31 +312,36 @@ header .navbar.animate {
     margin: 0;
 }
 
-#experience .experience-container {
+#experience .experience-container,
+#education .experience-container {
     background-color: var(--secondary-color) !important;
     border-radius: .75rem;
     box-shadow: 0px 8px 56px rgb(15 80 100 / 16%);
 }
 
-#experience .nav-item .nav-link {
+#experience .nav-item .nav-link,
+#education .nav-item .nav-link {
     color: var(--text-color) !important;
-    border-bottom: 2px solid transparent; 
+    border-bottom: 2px solid transparent;
     border-radius: 0%;
     transition: none;
     cursor: pointer;
 }
 
-#experience .nav-item .nav-link.active {
+#experience .nav-item .nav-link.active,
+#education .nav-item .nav-link.active {
     color: var(--text-color) !important;
-    border-bottom: 2px solid var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color);
     opacity: 0.8;
 }
 
-#experience .nav-item .nav-link.active:hover { 
+#experience .nav-item .nav-link.active:hover,
+#education .nav-item .nav-link.active:hover {
     transition: none !important;
 }
 
-#experience .nav-item .nav-link:hover {
+#experience .nav-item .nav-link:hover,
+#education .nav-item .nav-link:hover {
     border-bottom: 2px solid var(--primary-color);
     opacity: 0.8;
 }

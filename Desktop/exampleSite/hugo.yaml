@@ -223,97 +223,81 @@ params:
           #   date: "Jan 2022 - Dec 2023"
           #   content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
 
-      - company: "Amazon"
-        companyUrl: "https://example.com"
+      - company: "SGS"
+        description: "SGS is a global leader in Testing, Inspection & Certification with 94,000 staff across 140 countries."
         jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
+          - name: "Senior Chemistry Data Analyst"
+            date: "Jan 2019 - Oct 2021"
             content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+              * Applied causal inference through A/B testing to evaluate process changes, reducing total testing cycle time by 25%.
+              
+              * Optimized SQL queries and streamlined data processing workflows across multiple lab operations, cutting manual processing by 30% and scaling capacity to handle 2x more test results.
+              
+              * Created Tableau dashboards to monitor compliance KPIs and detect anomalies, reducing report turnaround by 50%.
+          
+          - name: "Junior Chemistry Data Analyst"
+            date: "Jul 2016 - Dec 2018"
+            content: |
+              * Analyzed chemical composition records across 9 countries to identify compliance risks and partnered with Product, Engineering, and QA teams to support $1M+ import projects.
 
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
+              * Standardized multi-source data pipelines using advanced Excel and delivered statistical insights to stakeholders, reducing reporting errors by 30% and contributing to 98% client satisfaction. .
+      # - company: "Apple"
+      #   companyUrl: "https://example.com"
+      #   jobs: 
+      #   - name: "Junior Software Developer"
+      #     date: "Jan 2020 - Aug 2020"
+      #     featuredItems:
+      #       fontAwesomeIcons:
+      #         - icon: fa-brands fa-react
+      #           url: https://react.dev/
+      #         - icon: fab fa-x-twitter
+      #           url: https://example.com
+      #       customIcons:
+      #         - icon: /fav.png
+      #           url: "https://example.com"
+      #     content: |
+      #       I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
-      - company: "Apple"
-        companyUrl: "https://example.com"
-        jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+      #       - Lead backend developer for a product.
+      #       - Created a frontend design for a product.
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
+      # - company: "Netflix"
+      #   companyUrl: "https://example.com"
+      #   jobs:
+      #   - name: "UI/UX Designer"
+      #     date: "June 2017 - Nov 2019"
+      #     content: |
+      #       I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
-      - company: "Netflix"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+      #       - Lead backend developer for a product.
+      #       - Created a frontend design for a product.
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      # - company: "Google"
+      #   companyUrl: "https://example.com"
+      #   jobs:
+      #   - name: "Product Designer"
+      #     date: "Feb 2016 - Mar 2017"
+      #     content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
     enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "Master of Business Administration"
-        school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+    groups:
+      - name: "Master's"
+        items:
+          - title: "Master of Data Science"
+            school: "Seattle University"
+            date: "2023 - 2025"
+            GPA: "3.7 out of 4.0"
+          - title: "Master of Food Science"
+            school: "National Taiwan Ocean University"
+            date: "2014 - 2016"
+            GPA: "3.9 out of 5.0"
+      - name: "Bachelor's"
+        items:
+          - title: "Bachelor of Food Science"
+            school: "National Taiwan Ocean University"
+            date: "2010 - 2014"
 
   # Achievements
   achievements:
