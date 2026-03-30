@@ -2,11 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blogs/arrhythmia-detection/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/sentiment-analysis-yelp-reviews/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/image-converter/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/nutrition-expert/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/example/</loc>
     <lastmod>2022-12-09T19:53:33+05:30</lastmod>

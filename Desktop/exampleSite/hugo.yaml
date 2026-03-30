@@ -326,50 +326,97 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: NutritionExpert
+        content: An AI-powered nutrition assistant that takes the guesswork out of healthy eating. Upload a meal photo to instantly receive a calorie and macronutrient breakdown, along with personalized diet recommendations tailored to your health goals.
+        image: /images/projects/NutritionExpert.jpg
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Read more
+          link: /blogs/nutrition-expert
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Computer Vision"
+          - "LLM"
+          - "API Integration"
+          - "Streamlit"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            - icon: fab fa-github
+              url: https://github.com/Tingyu98/NutritionExpert
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Arrhythmia Detection
+        content: An end-to-end machine learning system that detects cardiac arrhythmias from ECG data. Combining feature-based models and deep learning to help catch critical cardiac events before they become life-threatening.
+        image: /images/projects/Arrhythmia-detection.jpg
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Read more
+          link: /blogs/arrhythmia-detection
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "CNN"
+          - "Random Forest"
+          - "ECG Analysis"
+          - "Healthcare AI"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/Tingyu98/arrhythmia-detection
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title:  Sentiment Analysis of Yelp Reviews
+        content: An NLP-powered system that analyzes large-scale Yelp reviews to predict sentiment and help businesses identify service pain points and act on customer feedback.
+        image: /images/projects/Sentiment-Analysis.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Read more
+          link: /blogs/sentiment-analysis-yelp-reviews
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "NLP"
+          - "XGBoost"
+          - "Logistic Regression"
+          - "TF-IDF"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Tingyu98/Sentiment-Analysis-
+
+      - title:  Seattle Bird Sound Classifier
+        content: A deep learning system that identifies bird species from audio recordings by analyzing spectrograms, turning raw sound into accurate wildlife classification.
+        image: /images/projects/Seattle Bird Sound Classifier.jpg
+        featured:
+          name: Read more
+          link: /blogs/sentiment-analysis-yelp-reviews
+        badges:
+          - "Deep Learning"
+          - "Spectrogram"
+          - "Audio Analysis"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Tingyu98/Analysis-of-Seattle-Bird-Sounds-Deep-Learning
+
+      - title:  United Airlines Profitability & Route Optimization Analysis
+        content: A statistical deep dive into United Airlines flight data, uncovering how delays, routes, and scheduling decisions directly impact profitability and operational efficiency.
+        image: /images/projects/Airline.jpg
+        featured:
+          name: Read more
+          link: /blogs/sentiment-analysis-yelp-reviews
+        badges:
+          - "Hypothesis Testing"
+          - "Data Visualization"
+          - "Exploratory Data Analysis"
+          - "R"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Tingyu98/Analyzing-Departure-Delays-and-Profitability-for-United-Airlines
+            
+      - title:  Global Video Game Market Analysis
+        content: A market analysis of the video game industry, revealing how regional trends, consumer preferences, and economic factors influence sales performance.
+        image: /images/projects/video game.jpg
+        featured:
+          name: Read more
+          link: /blogs/sentiment-analysis-yelp-reviews
+        badges:
+          - "Power BI"
+          - "Data Wrangling"
+          - "Exploratory Data Analysis"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Tingyu98/Global-Consumer-and-Market-Trend-Analysis-for-the-Video-Game-Industry
 
   #Contact
   contact:

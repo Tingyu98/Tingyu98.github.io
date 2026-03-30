@@ -6,8 +6,36 @@
     <description>Recent content in Blogs on Beth(Ting-Yu) Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arrhythmia Detection</title>
+      <link>http://localhost:1313/blogs/arrhythmia-detection/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/arrhythmia-detection/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;!-- 放截圖或 demo 連結 --&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;!-- 列出主要功能 --&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;!-- 使用的技術 --&gt;&#xA;&lt;h2 id=&#34;challenges--learnings&#34;&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;&#xA;&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Profile V2</title>
+      <link>http://localhost:1313/blogs/sentiment-analysis-yelp-reviews/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/sentiment-analysis-yelp-reviews/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;!-- 放截圖或 demo 連結 --&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;!-- 列出主要功能 --&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;!-- 使用的技術 --&gt;&#xA;&lt;h2 id=&#34;challenges--learnings&#34;&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;&#xA;&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description>
+    </item>
+    <item>
+      <title>Image Converter</title>
+      <link>http://localhost:1313/blogs/image-converter/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/image-converter/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;!-- 放截圖或 demo 連結 --&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;!-- 列出主要功能 --&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;!-- 使用的技術 --&gt;&#xA;&lt;h2 id=&#34;challenges--learnings&#34;&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;&#xA;&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description>
+    </item>
+    <item>
+      <title>NutritionExpert</title>
+      <link>http://localhost:1313/blogs/nutrition-expert/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/nutrition-expert/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;!-- 放截圖或 demo 連結 --&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;!-- 列出主要功能 --&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;!-- 使用的技術 --&gt;&#xA;&lt;h2 id=&#34;challenges--learnings&#34;&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;&#xA;&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description>
+    </item>
     <item>
       <title>Render Math With Mathjax</title>
       <link>http://localhost:1313/blogs/math/</link>
