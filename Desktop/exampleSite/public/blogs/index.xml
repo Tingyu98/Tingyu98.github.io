@@ -9,13 +9,6 @@
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Arrhythmia Detection</title>
-      <link>http://localhost:1313/blogs/arrhythmia-detection/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/arrhythmia-detection/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;!-- 放截圖或 demo 連結 --&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;!-- 列出主要功能 --&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;!-- 使用的技術 --&gt;&#xA;&lt;h2 id=&#34;challenges--learnings&#34;&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;&#xA;&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description>
-    </item>
-    <item>
       <title>Hugo Profile V2</title>
       <link>http://localhost:1313/blogs/sentiment-analysis-yelp-reviews/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -27,13 +20,6 @@
       <link>http://localhost:1313/blogs/image-converter/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/image-converter/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;!-- 放截圖或 demo 連結 --&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;!-- 列出主要功能 --&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;!-- 使用的技術 --&gt;&#xA;&lt;h2 id=&#34;challenges--learnings&#34;&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;&#xA;&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description>
-    </item>
-    <item>
-      <title>NutritionExpert</title>
-      <link>http://localhost:1313/blogs/nutrition-expert/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/nutrition-expert/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;!-- 放截圖或 demo 連結 --&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;!-- 列出主要功能 --&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;!-- 使用的技術 --&gt;&#xA;&lt;h2 id=&#34;challenges--learnings&#34;&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;&#xA;&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description>
     </item>
     <item>
@@ -63,6 +49,20 @@
       <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
       <guid>http://localhost:1313/blogs/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;&#xA;&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;&#xA;&lt;li&gt;Duce pollice&lt;/li&gt;&#xA;&lt;li&gt;Eris modo&lt;/li&gt;&#xA;&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Arrhythmia Detection</title>
+      <link>http://localhost:1313/blogs/arrhythmia-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/arrhythmia-detection/</guid>
+      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;h2 id=&#34;view-on-github&#34;&gt;&lt;a href=&#34;https://github.com/Tingyu98/arrhythmia-detection&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h1 id=&#34;arrhythmia-detection-hackathon&#34;&gt;Arrhythmia Detection Hackathon&lt;/h1&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built an end-to-end ECG arrhythmia detection pipeline using machine learning and deep learning&lt;/li&gt;&#xA;&lt;li&gt;Achieved ~90% accuracy and strong abnormal recall using Random Forest and 1D CNN&lt;/li&gt;&#xA;&lt;li&gt;Extracted physiological features (HRV, RR intervals, QRS) for interpretable modeling&lt;/li&gt;&#xA;&lt;li&gt;Developed an interactive Streamlit app for real-time ECG analysis and visualization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project develops an AI-powered system to detect cardiac arrhythmias from ECG signals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NutritionExpert</title>
+      <link>http://localhost:1313/blogs/nutrition-expert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/nutrition-expert/</guid>
+      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Tingyu98/NutritionExpert&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built an end-to-end AI-powered nutrition analysis system using YOLOv8, GPT-4, and external APIs&lt;/li&gt;&#xA;&lt;li&gt;Achieved ~73% mAP in food detection across 65 food categories&lt;/li&gt;&#xA;&lt;li&gt;Integrated real-time nutrition data and personalized diet recommendations&lt;/li&gt;&#xA;&lt;li&gt;Delivered an interactive Streamlit app for real-world usability&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s fast-paced world, maintaining a healthy diet is increasingly challenging. NutritionExpert is an AI-powered system that analyzes meal images and generates personalized diet recommendations.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

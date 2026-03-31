@@ -30,18 +30,18 @@
 
 <meta property="og:url" content="http://localhost:1313/blogs/sentiment-analysis-yelp-reviews/">
   <meta property="og:site_name" content="Beth(Ting-Yu) Profile">
-  <meta property="og:title" content="Hugo Profile V2">
-  <meta property="og:description" content="Overview Demo Features Tech Stack Challenges &amp; Learnings">
+  <meta property="og:title" content="Sentiment Analysis of Yelp Reviews">
+  <meta property="og:description" content="View on GitHub
+Key Highlights Analyzed 150K restaurant reviews from a 6M&#43; Yelp dataset using NLP techniques Built sentiment classification models using TF-IDF, Logistic Regression, and XGBoost Achieved ~94% F1-score with XGBoost, outperforming baseline models Identified key drivers of negative sentiment, including service delays and order issues Overview This project applies Natural Language Processing (NLP) and machine learning techniques to analyze restaurant reviews from Yelp.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blogs">
-    <meta property="article:published_time" content="2024-01-01T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-01-01T00:00:00+00:00">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hugo Profile V2">
-  <meta name="twitter:description" content="Overview Demo Features Tech Stack Challenges &amp; Learnings">
+  <meta name="twitter:title" content="Sentiment Analysis of Yelp Reviews">
+  <meta name="twitter:description" content="View on GitHub
+Key Highlights Analyzed 150K restaurant reviews from a 6M&#43; Yelp dataset using NLP techniques Built sentiment classification models using TF-IDF, Logistic Regression, and XGBoost Achieved ~94% F1-score with XGBoost, outperforming baseline models Identified key drivers of negative sentiment, including service delays and order issues Overview This project applies Natural Language Processing (NLP) and machine learning techniques to analyze restaurant reviews from Yelp.">
 
 
 
@@ -120,7 +120,7 @@
   
 
   <title>
-Hugo Profile V2 | Beth(Ting-Yu) Profile
+Sentiment Analysis of Yelp Reviews | Beth(Ting-Yu) Profile
 
   </title>
 </head>
@@ -301,30 +301,90 @@ Hugo Profile V2 | Beth(Ting-Yu) Profile
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4">Hugo Profile V2</h1>
+            <h1 class="text-center mb-4">Sentiment Analysis of Yelp Reviews</h1>
             <div class="text-center">
               
-              Jan 1, 2024
-
               
-              <span id="readingTime">
-                min read
-              </span>
+
               
             </div>
           </div>
           
           <article class="page-content  p-2">
-          <h2 id="overview">Overview</h2>
-<!-- 在這裡寫這個 project 的詳細介紹 -->
-<h2 id="demo">Demo</h2>
-<!-- 放截圖或 demo 連結 -->
-<h2 id="features">Features</h2>
-<!-- 列出主要功能 -->
+          <style>.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}</style>
+<p><a href="https://github.com/Tingyu98/Sentiment-Analysis-" target="_blank" class="gh-btn"><i class="fab fa-github"></i> View on GitHub</a></p>
+<h2 id="key-highlights">Key Highlights</h2>
+<ul>
+<li>Analyzed 150K restaurant reviews from a 6M+ Yelp dataset using NLP techniques</li>
+<li>Built sentiment classification models using TF-IDF, Logistic Regression, and XGBoost</li>
+<li>Achieved ~94% F1-score with XGBoost, outperforming baseline models</li>
+<li>Identified key drivers of negative sentiment, including service delays and order issues</li>
+</ul>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>This project applies Natural Language Processing (NLP) and machine learning techniques to analyze restaurant reviews from Yelp.</p>
+<p>By modeling customer sentiment from textual reviews, the project identifies key factors influencing customer satisfaction and provides actionable insights to improve service quality and user experience.</p>
+<hr>
+<h2 id="key-questions">Key Questions</h2>
+<ul>
+<li>What words and phrases drive positive or negative customer sentiment?</li>
+<li>How accurately can we predict sentiment from review text?</li>
+<li>What operational insights can businesses extract from customer feedback?</li>
+</ul>
+<hr>
+<h2 id="methodology">Methodology</h2>
+<ul>
+<li><strong>Data</strong>: Yelp Open Dataset (6M+ reviews, 150K sampled for analysis)</li>
+<li><strong>Preprocessing</strong>: Tokenization, lowercasing, stop-word removal, lemmatization</li>
+<li><strong>Filtering</strong>: Selected restaurant-related reviews and merged business metadata</li>
+<li><strong>EDA</strong>: Analysis of rating distribution, text length, and word frequency</li>
+<li><strong>Feature Engineering</strong>: TF-IDF vectorization using NLTK and scikit-learn</li>
+<li><strong>Modeling</strong>:
+<ul>
+<li>Logistic Regression (baseline)</li>
+<li>XGBoost (optimized via hyperparameter tuning)</li>
+</ul>
+</li>
+<li><strong>Evaluation</strong>: Accuracy, F1-score, precision-recall tradeoffs</li>
+<li><strong>Interpretation</strong>: Feature importance analysis to identify sentiment drivers</li>
+</ul>
+<hr>
+<h2 id="results--insights">Results &amp; Insights</h2>
+<ul>
+<li>XGBoost achieved ~94% F1-score, outperforming Logistic Regression</li>
+<li>Logistic Regression provided a strong and interpretable baseline</li>
+<li>Key negative sentiment drivers included terms such as &ldquo;time&rdquo; and &ldquo;order&rdquo;</li>
+<li>Insights indicate customer dissatisfaction is strongly linked to service delays and order accuracy</li>
+</ul>
+<hr>
+<h2 id="impact">Impact</h2>
+<ul>
+<li>Enables businesses to automatically analyze large-scale customer feedback</li>
+<li>Provides actionable insights to improve service quality and customer satisfaction</li>
+<li>Demonstrates scalable NLP solutions for real-world text analytics</li>
+</ul>
+<hr>
+<h2 id="use-cases">Use Cases</h2>
+<ul>
+<li>Restaurants monitoring customer feedback and identifying service issues</li>
+<li>Platforms like Yelp automating sentiment classification and review summaries</li>
+<li>Product and operations teams improving customer experience based on data insights</li>
+</ul>
+<hr>
 <h2 id="tech-stack">Tech Stack</h2>
-<!-- 使用的技術 -->
-<h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<!-- 遇到的挑戰和學到的東西 -->
+<ul>
+<li>Python (pandas, numpy)</li>
+<li>NLP: NLTK, scikit-learn</li>
+<li>Modeling: Logistic Regression, XGBoost</li>
+<li>Visualization: matplotlib, seaborn</li>
+</ul>
+<hr>
+<h2 id="future-work">Future Work</h2>
+<ul>
+<li>Incorporate word embeddings (Word2Vec, BERT) for deeper semantic understanding</li>
+<li>Extend to multi-class sentiment classification</li>
+<li>Deploy as a real-time API or dashboard for continuous monitoring</li>
+</ul>
 
           </article>
         </div>
@@ -339,11 +399,15 @@ Hugo Profile V2 | Beth(Ting-Yu) Profile
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
+    <li><a href="#key-highlights">Key Highlights</a></li>
     <li><a href="#overview">Overview</a></li>
-    <li><a href="#demo">Demo</a></li>
-    <li><a href="#features">Features</a></li>
+    <li><a href="#key-questions">Key Questions</a></li>
+    <li><a href="#methodology">Methodology</a></li>
+    <li><a href="#results--insights">Results &amp; Insights</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#use-cases">Use Cases</a></li>
     <li><a href="#tech-stack">Tech Stack</a></li>
-    <li><a href="#challenges--learnings">Challenges &amp; Learnings</a></li>
+    <li><a href="#future-work">Future Work</a></li>
   </ul>
 </nav>
               </div>
@@ -352,34 +416,6 @@ Hugo Profile V2 | Beth(Ting-Yu) Profile
 
           
 
-          
-          <aside class="social">
-            <h5>Social</h5>
-            <div class="social-content">
-              <ul class="list-inline">
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text= http%3a%2f%2flocalhost%3a1313%2fblogs%2fsentiment-analysis-yelp-reviews%2f">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text=Hugo%20Profile%20V2&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fsentiment-analysis-yelp-reviews%2f&hashtags='>
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=Hugo%20Profile%20V2: http%3a%2f%2flocalhost%3a1313%2fblogs%2fsentiment-analysis-yelp-reviews%2f">
-                    <i class="fab fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=Hugo%20Profile%20V2&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2fsentiment-analysis-yelp-reviews%2f'>
-                    <i class="fa fa-envelope"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </aside>
           
         </div>
       </div>
@@ -432,8 +468,6 @@ Hugo Profile V2 | Beth(Ting-Yu) Profile
 </script>
 
 
-<script src="/js/readingTime.js"></script>
-
 
 
   </div><footer>
@@ -443,98 +477,6 @@ Hugo Profile V2 | Beth(Ting-Yu) Profile
   
 
  
- 
-<div class="container py-3" id="recent-posts">
-    
-    
-    <div class="h3 text-center text-secondary py-3">
-        Recent Posts
-    </div>
-    <div class="row justify-content-center">
-        
-        <div class="col-lg-4 col-md-6 pt-2">
-            <div class="card h-100">
-                
-                <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/arrhythmia-detection/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Arrhythmia Detection">Arrhythmia Detection</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p><h2 id="overview">Overview</h2>
-<!-- 在這裡寫這個 project 的詳細介紹 -->
-<h2 id="demo">Demo</h2>
-<!-- 放截圖或 demo 連結 -->
-<h2 id="features">Features</h2>
-<!-- 列出主要功能 -->
-<h2 id="tech-stack">Tech Stack</h2>
-<!-- 使用的技術 -->
-<h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<!-- 遇到的挑戰和學到的東西 --></p>
-                    </div>
-                </div>
-                <div class="mt-auto card-footer">
-                    <span class="float-start">January 1, 2024</span>
-                    <a href="/blogs/arrhythmia-detection/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 pt-2">
-            <div class="card h-100">
-                
-                <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/sentiment-analysis-yelp-reviews/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Hugo Profile V2">Hugo Profile V2</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p><h2 id="overview">Overview</h2>
-<!-- 在這裡寫這個 project 的詳細介紹 -->
-<h2 id="demo">Demo</h2>
-<!-- 放截圖或 demo 連結 -->
-<h2 id="features">Features</h2>
-<!-- 列出主要功能 -->
-<h2 id="tech-stack">Tech Stack</h2>
-<!-- 使用的技術 -->
-<h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<!-- 遇到的挑戰和學到的東西 --></p>
-                    </div>
-                </div>
-                <div class="mt-auto card-footer">
-                    <span class="float-start">January 1, 2024</span>
-                    <a href="/blogs/sentiment-analysis-yelp-reviews/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 pt-2">
-            <div class="card h-100">
-                
-                <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/image-converter/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Image Converter">Image Converter</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p><h2 id="overview">Overview</h2>
-<!-- 在這裡寫這個 project 的詳細介紹 -->
-<h2 id="demo">Demo</h2>
-<!-- 放截圖或 demo 連結 -->
-<h2 id="features">Features</h2>
-<!-- 列出主要功能 -->
-<h2 id="tech-stack">Tech Stack</h2>
-<!-- 使用的技術 -->
-<h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<!-- 遇到的挑戰和學到的東西 --></p>
-                    </div>
-                </div>
-                <div class="mt-auto card-footer">
-                    <span class="float-start">January 1, 2024</span>
-                    <a href="/blogs/image-converter/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</div>
 
 <div class="text-center pt-2">
     
