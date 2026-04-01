@@ -1,3 +1,7 @@
+#single h1, #single h2, #single h3, #single h4, #single h5, #single h6 {
+    scroll-margin-top: 200px;
+}
+
 #single {
     padding: 60px 0;
     line-height: 1.7em;

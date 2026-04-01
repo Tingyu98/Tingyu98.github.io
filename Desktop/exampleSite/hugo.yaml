@@ -10,11 +10,6 @@ menu:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Image gallery
-      url: /gallery
-      weight: 2
 
 outputs:
   home:
@@ -42,12 +37,6 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: gallery
-      name: Gallery
-      title: Gallery
-      url: /gallery
-      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -380,7 +369,7 @@ params:
         image: /images/projects/Seattle Bird Sound Classifier.jpg
         featured:
           name: Read more
-          link: /blogs/sentiment-analysis-yelp-reviews
+          link: /blogs/Seattle_Bird_Sound_Classifier
         badges:
           - "Deep Learning"
           - "Spectrogram"
@@ -394,7 +383,7 @@ params:
         image: /images/projects/Airline.jpg
         featured:
           name: Read more
-          link: /blogs/sentiment-analysis-yelp-reviews
+          link: /blogs/United_Airlines
         badges:
           - "Hypothesis Testing"
           - "Data Visualization"
@@ -409,7 +398,7 @@ params:
         image: /images/projects/video game.jpg
         featured:
           name: Read more
-          link: /blogs/sentiment-analysis-yelp-reviews
+          link: /blogs/Video_game
         badges:
           - "Power BI"
           - "Data Wrangling"
@@ -442,9 +431,9 @@ params:
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:

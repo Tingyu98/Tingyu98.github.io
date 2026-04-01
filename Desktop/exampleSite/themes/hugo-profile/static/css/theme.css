@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 80px;
+}
+
 /* light mode */
 .light > *{
     background-color: var(--background-color) !important;
