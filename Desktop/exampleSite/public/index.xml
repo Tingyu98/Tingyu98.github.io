@@ -6,8 +6,15 @@
     <description>Recent content on Beth(Ting-Yu) Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skills</title>
+      <link>http://localhost:1313/skills/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/skills/</guid>
+      <description>&lt;h2 id=&#34;programming--tools&#34;&gt;Programming &amp;amp; Tools&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python (Pandas, NumPy, Scikit-learn, TensorFlow)&lt;/li&gt;&#xA;&lt;li&gt;SQL&lt;/li&gt;&#xA;&lt;li&gt;R&lt;/li&gt;&#xA;&lt;li&gt;Power BI / Tableau&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;machine-learning&#34;&gt;Machine Learning&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Supervised Learning&lt;/li&gt;&#xA;&lt;li&gt;Unsupervised Learning&lt;/li&gt;&#xA;&lt;li&gt;Deep Learning&lt;/li&gt;&#xA;&lt;li&gt;NLP&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;data-engineering&#34;&gt;Data Engineering&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ETL Pipeline Development&lt;/li&gt;&#xA;&lt;li&gt;Feature Engineering&lt;/li&gt;&#xA;&lt;li&gt;Data Wrangling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A/B Testing &amp;amp; Causal Inference&lt;/li&gt;&#xA;&lt;li&gt;Statistical Analysis&lt;/li&gt;&#xA;&lt;li&gt;Excel (Advanced)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Image Converter</title>
       <link>http://localhost:1313/blogs/image-converter/</link>

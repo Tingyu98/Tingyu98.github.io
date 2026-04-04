@@ -3,14 +3,6 @@ languageCode: "en-us"
 title: "Beth(Ting-Yu) Profile"
 theme: hugo-profile
 
-menu:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-
 outputs:
   home:
     - "HTML"
@@ -37,6 +29,7 @@ markup:
       unsafe: true
 
 Menus:
+  main: []
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -89,11 +82,11 @@ params:
 
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
+  color:
   #   textColor: "#343a40"
   #   secondaryTextColor: "#6c757d"
   #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
+    backgroundColor: "#ECF5FF"
   #   secondaryBackgroundColor: "#64ffda1a"
   #   primaryColor: "#007bff"
   #   secondaryColor: "#f8f9fa"
@@ -181,9 +174,11 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Seattle University"
+      - company: "Data Scientist"
         #companyUrl: "https://example.com"
+        description: "Client: Seattle Regional Community Organization via Seattle University partnership"
         jobs:
+
           - name: "Data Scientist"
             date: "Jan 2025 - Jun 2025"
             content: |-
@@ -212,7 +207,7 @@ params:
           #   date: "Jan 2022 - Dec 2023"
           #   content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
 
-      - company: "SGS"
+      - company: "Data Analyst"
         description: "SGS is a global leader in Testing, Inspection & Certification with 94,000 staff across 140 countries."
         jobs:
           - name: "Senior Chemistry Data Analyst"
@@ -293,22 +288,22 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: IEEE AI Hackathon Winner
+        content: Winning 1st place among 100+ teams by developing an ECG arrhythmia ML model (~90% F1).
+        # image: /images/achievement.jpg
+        url: "https://drive.google.com/file/d/1E0oY5x2MGYUyG3PWTxLj0Z2GwJV5tDGU/view?usp=sharing"
+      - title: Dean’s Graduate Honor Roll (Fall 2024 – Spring 2025)
+        content: Achieved a 4.0 GPA across consecutive quarters while carrying a full course load.
+        url: "https://drive.google.com/file/d/1_KhuT5B-fykVJRUtIVkbfg8stuHK6ZQi/view?usp=sharing"
+        # image: /images/achievement.jpg
+      - title: Seattle University Graduate Merit Scholarship Recipient
+        content: Awarded a merit-based graduate scholarship based on the strength of academic and professional background.
+        # image: /images/achievement.jpg
+      # - title: Microsoft Imagine Runner
+      #   content: We are developed a product which can help others.
+      # - title: Google Summer of Code
+      #   content: Contributed to a open source project.
+      #   url: https://example.com
 
   # projects
   projects:
@@ -411,9 +406,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Always happy to connect, whether it’s a question, an opportunity, or just to say hi.
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:bethlin034@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -429,8 +424,8 @@ params:
       enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/Tingyu98
+      linkedin: https://www.linkedin.com/in/tingyu-data/
       # twitter: https://twitter.com
       # instagram: https://instagram.com
       # facebook: https://facebook.com

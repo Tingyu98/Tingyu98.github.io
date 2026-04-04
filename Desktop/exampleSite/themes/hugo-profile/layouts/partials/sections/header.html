@@ -79,6 +79,18 @@
                         </li>
                     {{ end }}
 
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}" aria-label="home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/skills" aria-label="skills">
+                            Skills
+                        </a>
+                    </li>
+
                     {{ if and (.Site.Params.about.enable | default false) (not (.Site.Params.navbar.menus.disableAbout | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.Home.RelPermalink }}#about" aria-label="about">
