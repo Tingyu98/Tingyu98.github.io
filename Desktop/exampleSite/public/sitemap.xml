@@ -58,6 +58,8 @@
   </url><url>
     <loc>http://localhost:1313/blogs/video_game/</loc>
   </url><url>
+    <loc>http://localhost:1313/blogs/member_growth/</loc>
+  </url><url>
     <loc>http://localhost:1313/blogs/nutrition-expert/</loc>
   </url><url>
     <loc>http://localhost:1313/blogs/seattle_bird_sound_classifier/</loc>

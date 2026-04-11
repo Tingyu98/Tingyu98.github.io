@@ -310,6 +310,26 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+
+      - title: Member Growth & Engagement Analytics
+        content: A data science project analyzing 300K+ community records to uncover engagement trends and participation gaps across cultural groups and young adults, identifying key drivers to inform outreach strategy and resource allocation.
+        image: /images/projects/Member Growth.png
+        featured:
+          name: Read more
+          link: /blogs/member_growth
+        badges:
+          - "ETL"
+          - "Clustering & Segmentation"
+          - "Time Series Forecasting"
+          - "Regression"
+        links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            - icon: fab fa-github
+              url: https://github.com/Tingyu98/member-growth-engagement-analytics
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
       - title: NutritionExpert
         content: An AI-powered nutrition assistant that takes the guesswork out of healthy eating. Upload a meal photo to instantly receive a calorie and macronutrient breakdown, along with personalized diet recommendations tailored to your health goals.
         image: /images/projects/NutritionExpert.jpg

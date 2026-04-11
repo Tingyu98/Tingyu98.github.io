@@ -53,6 +53,7 @@ By combining computer vision, nutrition APIs, and large language models, the pla
 ## Demo / Visualization
 
 **Application Demo**
+
 <img src="/images/projects/food_detect.png" width="60%">
 
 **Features Demonstrated**
