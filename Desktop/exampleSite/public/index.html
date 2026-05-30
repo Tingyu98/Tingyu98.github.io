@@ -30,15 +30,15 @@
 
 
 <meta property="og:url" content="http://localhost:1313/">
-  <meta property="og:site_name" content="Beth(Ting-Yu) Profile">
-  <meta property="og:title" content="Beth(Ting-Yu) Profile">
+  <meta property="og:site_name" content="Beth Profile">
+  <meta property="og:title" content="Beth Profile">
   <meta property="og:description" content="Text about my cool site">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Beth(Ting-Yu) Profile">
+  <meta name="twitter:title" content="Beth Profile">
   <meta name="twitter:description" content="Text about my cool site">
 
 
@@ -54,8 +54,8 @@
 
 <style>
     :root {
-        --text-color: #343a40;
-        --text-secondary-color: #6c757d;
+        --text-color: #2d2d2d;
+        --text-secondary-color: #3a3a3a;
         --text-link-color: #007bff;
         --background-color: #ECF5FF;
         --secondary-background-color: #64ffda1a;
@@ -72,7 +72,7 @@
         --secondary-color-dark: #212529;
     }
     body {
-        font-size: 1rem;
+        font-size: 1.15rem;
         font-weight: 400;
         line-height: 1.5;
         text-align: left;
@@ -119,7 +119,7 @@
   
 
   <title>
-Beth(Ting-Yu) Profile
+Beth Profile
 
   </title>
 </head>
@@ -209,9 +209,12 @@ Beth(Ting-Yu) Profile
                     </li>
 
                     
+
+                    
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#about" aria-label="about">
-                            About Me
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Projects
                         </a>
                     </li>
                     
@@ -230,15 +233,6 @@ Beth(Ting-Yu) Profile
                         <a class="nav-link" href="/#education"
                             aria-label="education">
                             Education
-                        </a>
-                    </li>
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#projects"
-                            aria-label="projects">
-                            Projects
                         </a>
                     </li>
                     
@@ -300,21 +294,26 @@ Beth(Ting-Yu) Profile
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-8 content animate" id="primary-font">
                 <span class="subtitle">
-                    Hi, my name is
+                    <span style='font-size:1.15rem;'>Hi, my name is</span> <span style='color:#0056b3; font-size:3.5rem; font-weight:700;'>Beth Lin</span>.
                 </span>
                 <h1>
-                    Beth/Ting-Yu.
+                    
                 </h1>
                 <h2>
-                    I transform complex, messy data into meaningful insights.
+                    
                 </h2>
                 <p class="hero-content">
-                    With a background in Data Science and Food Science, I combine scientific rigor and practical machine learning skills to deliver results.
+                    <p>I&rsquo;m a <strong>data analyst/data scientist</strong> with a background in both <strong>Data Science and Food Science</strong>.
+I spent five years working as a Chemistry Data Analyst in the food testing industry, where I worked with large datasets, built dashboards, and used experimental analysis to improve processes
+and support food import decisions. One thing I really enjoyed was turning complex technical results into insights clients could actually use.</p>
+<p>That experience led me to pursue a Master&rsquo;s in Data Science, where I built stronger skills in machine learning, statistics, and predictive analytics. During graduate school, I partnered with a local nonprofit organization to improve data workflows and build machine learning models for strategic planning.</p>
+<p>What I enjoy most is digging into raw data, uncovering what it&rsquo;s really saying, and using that to help people make better decisions.</p>
+
                 </p>
                 <div class="row">
                     <div class="col-auto h-100">
                         
-                        <a href="https://drive.google.com/file/d/1EW3_9u0irupt6ST7Tf8Eu_-X_WlE5ZdI/view?usp=sharing" class="btn" download
+                        <a href="https://drive.google.com/file/d/1iPPfdPvzH1WQepXk1DULag13LLVzM3Ow/view?usp=sharing" class="btn" download
 			  >
                             Resume
                         </a>
@@ -623,25 +622,183 @@ Beth(Ting-Yu) Profile
     </div>
     
 </section>
-<section id="about" class="py-0 py-sm-5">
-    <div class="container bg-transparent">
-        <h3 class="text-center bg-transparent">About Me</h3>
-        <div class="bg-transparent row justify-content-center px-3 py-5">
-            <div class="col-sm-12 col-md-12 col-lg-8 content">
-                <p>I&rsquo;m a data scientist with a background that started in chemistry labs and ended up in machine learning.</p>
-<p>Before my Master&rsquo;s in Data Science, I spent five years as a Chemistry Data Analyst in the food testing industry. I worked with large-scale laboratory datasets, built compliance dashboards, and helped inform food import decisions with data. One of the parts I valued most was translating technical findings into something clients could actually act on.</p>
-<p>That experience made me realize how much I loved the analytical side of the work, so I went back to school to go deeper. During my Master&rsquo;s, I partnered with a local nonprofit to overhaul their data workflows, build machine learning models, and create dashboards that shaped their strategic planning.</p>
-<p>What I enjoy most is digging into raw data, uncovering what it&rsquo;s really saying, and using that to help people make better decisions.</p>
-
-
-                
-            </div>
+<section id="projects" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Projects</h3>
+        <div class="row justify-content-center px-3 px-md-5">
             
-            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
-                <div class="image d-flex px-5">
-                    <img src="/images/about.png" class="img-thumbnail mx-auto rounded-circle" alt="Hugo Profile profile picture">
+            <div class="col-lg-6 col-md-6 my-3">
+                <div class="card my-3 h-100" title="SaaS Customer Lifecycle Analytics">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/SaaS.png" alt="SaaS Customer Lifecycle Analytics">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <h4 class="card-title bg-transparent mt-1">SaaS Customer Lifecycle Analytics</h4>
+                        <div class="card-text bg-transparent secondary-font">
+                            Analysis of SaaS customer lifecycle metrics including acquisition, funnel conversion, retention, RFM segmentation, and customer lifetime value.
+                        </div>
+                        <div class="pt-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Funnel Analysis</span>
+                            
+                            <span class="badge badge-secondary">Cohort Analysis</span>
+                            
+                            <span class="badge badge-secondary">RFM Segmentation</span>
+                            
+                            <span class="badge badge-secondary">Customer Lifetime Value</span>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/Tingyu98/SaaS-Product-Analytics-Retention-Analysis" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="/blogs/customer-analytics" target="_blank">
+                                Read more
+                            </a>
+                        </span>
+                        
+                    </div>
+                    
                 </div>
             </div>
+            
+            <div class="col-lg-6 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Member Growth &amp; Engagement Analytics">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/Member%20Growth.png" alt="Member Growth &amp; Engagement Analytics">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <h4 class="card-title bg-transparent mt-1">Member Growth &amp; Engagement Analytics</h4>
+                        <div class="card-text bg-transparent secondary-font">
+                            A data science project analyzing 300K&#43; community records to uncover engagement trends and participation gaps across cultural groups and young adults, identifying key drivers to inform outreach strategy and resource allocation.
+                        </div>
+                        <div class="pt-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">ETL</span>
+                            
+                            <span class="badge badge-secondary">Clustering &amp; Segmentation</span>
+                            
+                            <span class="badge badge-secondary">Time Series Forecasting</span>
+                            
+                            <span class="badge badge-secondary">Regression</span>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/Tingyu98/member-growth-engagement-analytics" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="/blogs/member_growth" target="_blank">
+                                Read more
+                            </a>
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-6 my-3">
+                <div class="card my-3 h-100" title="NutritionExpert">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/NutritionExpert.jpg" alt="NutritionExpert">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <h4 class="card-title bg-transparent mt-1">NutritionExpert</h4>
+                        <div class="card-text bg-transparent secondary-font">
+                            An AI-powered nutrition assistant that takes the guesswork out of healthy eating. Upload a meal photo to instantly receive a calorie and macronutrient breakdown, along with personalized diet recommendations tailored to your health goals.
+                        </div>
+                        <div class="pt-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Computer Vision</span>
+                            
+                            <span class="badge badge-secondary">LLM</span>
+                            
+                            <span class="badge badge-secondary">API Integration</span>
+                            
+                            <span class="badge badge-secondary">Streamlit</span>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/Tingyu98/NutritionExpert" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="/blogs/nutrition-expert" target="_blank">
+                                Read more
+                            </a>
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Sentiment Analysis of Yelp Reviews">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/Sentiment-Analysis.png" alt="Sentiment Analysis of Yelp Reviews">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <h4 class="card-title bg-transparent mt-1">Sentiment Analysis of Yelp Reviews</h4>
+                        <div class="card-text bg-transparent secondary-font">
+                            An NLP-powered system that analyzes large-scale Yelp reviews to predict sentiment and help businesses identify service pain points and act on customer feedback.
+                        </div>
+                        <div class="pt-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">NLP</span>
+                            
+                            <span class="badge badge-secondary">XGBoost</span>
+                            
+                            <span class="badge badge-secondary">Logistic Regression</span>
+                            
+                            <span class="badge badge-secondary">TF-IDF</span>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/Tingyu98/Sentiment-Analysis-" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="/blogs/sentiment-analysis-yelp-reviews" target="_blank">
+                                Read more
+                            </a>
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
             
         </div>
     </div>
@@ -650,7 +807,7 @@ Beth(Ting-Yu) Profile
     <div class="container">
         <h3 class="text-center">Experience</h3>
         <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+            <div class="col-sm-12 col-md-10 col-lg-10 py-5">
                 <div class="experience-container px-3 pt-2">
                     <ul class="nav nav-pills mb-2 bg-transparent primary-font" id="pills-tab" role="tablist">
                         
@@ -664,11 +821,29 @@ Beth(Ting-Yu) Profile
                                     aria-selected="true"
                                     role="tab"
                                     data-bs-toggle="pill"
-                                    id='data-scientist-jan-2025-jun-2025-tab'
-                                    data-bs-target='#pills-data-scientist-jan-2025-jun-2025'
-                                    aria-controls='data-scientist-jan-2025-jun-2025'
+                                    id='data-science-intern-seattle-jun-2025-present-tab'
+                                    data-bs-target='#pills-data-science-intern-seattle-jun-2025-present'
+                                    aria-controls='data-science-intern-seattle-jun-2025-present'
                                 >
-                                    Data Scientist
+                                    Data Science Intern
+                                </div>
+                            </li>
+                        
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='data-science-consultant-seattle-jan-2025-jun-2025-tab'
+                                    data-bs-target='#pills-data-science-consultant-seattle-jan-2025-jun-2025'
+                                    aria-controls='data-science-consultant-seattle-jan-2025-jun-2025'
+                                >
+                                    Data Science Consultant
                                 </div>
                             </li>
                         
@@ -703,37 +878,86 @@ Beth(Ting-Yu) Profile
                             <div
                                 class="tab-pane fade bg-transparent show active"
                                 role="tabpanel"
-                                id='pills-data-scientist-jan-2025-jun-2025'
-                                aria-labelledby='data-scientist-jan-2025-jun-2025-tab'
+                                id='pills-data-science-intern-seattle-jun-2025-present'
+                                aria-labelledby='data-science-intern-seattle-jun-2025-present-tab'
                             >
-                                <p class="mb-3">Client: Seattle Regional Community Organization via Seattle University partnership</p>
+                                
                                 
                                     <div>
                                         <div class="d-flex align-items-center justify-content-between">
                                             <div>
-                                                <span class="h4">Data Scientist</span>
+                                                <span class="h4">A&amp;H Harmony Homes Inc.</span>
                                                 
                                                 
                                                 
                                             </div>
                                             <div class="d-block">
-                                                <small>Jan 2025 - Jun 2025</small>
+                                                <small>Seattle | Jun 2025 – Present</small>
                                                 
                                             </div>
                                         </div>
                                         <div class="pb-2 pb-3">
                                             <ul>
 <li>
-<p>Engineered an end-to-end Python ETL pipeline integrating 300K+ records from 15 fragmented sources, performing feature engineering and data wrangling to reduce manual processing from weeks to hours.</p>
+<p>Designed end-to-end BI solution architecture, building automated SQL-based ETL pipelines to integrate multi-source housing data, reducing manual processing time by ~40% and enabling scalable analytics workflows.</p>
 </li>
 <li>
-<p>Developed time-series forecasting and regression models across 20+ variables to identify key engagement drivers and support 3-year supply planning across 10 regions.</p>
+<p>Developed self-service Tableau dashboards using LOD expressions, parameter filters and calculated fields to analyze rental yield, price growth, and regional trends, identifying high-return investment opportunities.</p>
 </li>
 <li>
-<p>Identified four member segments using PCA and K-means clustering, uncovering behavioral patterns that informed targeted engagement and retention strategies.</p>
+<p>Defined and implemented KPI frameworks (rental yield, ROI, price appreciation, demand indicators), partnering with executive stakeholders to translate business requirements into data models and analytics insights.</p>
+</li>
+</ul>
+
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-data-science-consultant-seattle-jan-2025-jun-2025'
+                                aria-labelledby='data-science-consultant-seattle-jan-2025-jun-2025-tab'
+                            >
+                                
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">A.O.S x Seattle U</span>
+                                                
+                                                
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Seattle | Jan 2025 – Jun 2025</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <ul>
+<li>
+<p>Engineered scalable SQL/Python data pipelines integrating 300K+ records across 15 sources, reducing processing time from days to hours and enabling downstream reporting and analysis.</p>
 </li>
 <li>
-<p>Built Power BI dashboards to analyze 10-year growth trends, uncovering a 20% participation gap among young adults that informed new outreach initiatives targeting this segment.</p>
+<p>Developed time-series forecasting and cohort models on 25 years of data to predict community member participation trends, supporting long-term resource allocation across 10 regional markets.</p>
+</li>
+<li>
+<p>Conducted driver analysis using multivariate regression models (20+ features) to quantify key factors driving young adult engagement (demographics, channel exposure, program type), supporting targeted outreach.</p>
+</li>
+<li>
+<p>Built Power BI dashboards leveraging data modeling, DAX measures, Power Query transformations, calculated columns to analyze trends, engagement gaps, and enable interactive reporting.</p>
+</li>
+<li>
+<p>Applied segmentation and clustering techniques to group 136 communities into behavioral cohorts, enabling targeted retention strategies and improving program engagement performance.</p>
 </li>
 </ul>
 
@@ -760,7 +984,7 @@ Beth(Ting-Yu) Profile
                                     <div>
                                         <div class="d-flex align-items-center justify-content-between">
                                             <div>
-                                                <span class="h4">Senior Chemistry Data Analyst</span>
+                                                <span class="h4">Senior Data Analyst</span>
                                                 
                                                 
                                                 
@@ -789,7 +1013,7 @@ Beth(Ting-Yu) Profile
                                     <div>
                                         <div class="d-flex align-items-center justify-content-between">
                                             <div>
-                                                <span class="h5">Junior Chemistry Data Analyst</span>
+                                                <span class="h5">Junior Data Analyst</span>
                                                 
                                                 
                                                 
@@ -805,7 +1029,7 @@ Beth(Ting-Yu) Profile
 <p>Analyzed chemical composition records across 9 countries to identify compliance risks and partnered with Product, Engineering, and QA teams to support $1M+ import projects.</p>
 </li>
 <li>
-<p>Standardized multi-source data pipelines using advanced Excel and delivered statistical insights to stakeholders, reducing reporting errors by 30% and contributing to 98% client satisfaction. .</p>
+<p>Standardized multi-source data pipelines using advanced Excel and delivered statistical insights to stakeholders, reducing reporting errors by 30% and contributing to 98% client satisfaction.</p>
 </li>
 </ul>
 
@@ -826,7 +1050,7 @@ Beth(Ting-Yu) Profile
     <div class="container">
         <h3 class="text-center">Education</h3>
         <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+            <div class="col-sm-12 col-md-10 col-lg-10 py-5">
                 <div class="experience-container px-3 pt-2">
                     <ul class="nav nav-pills mb-2 bg-transparent primary-font" id="education-tab" role="tablist">
                         
@@ -919,312 +1143,6 @@ Beth(Ting-Yu) Profile
     </div>
 </section>
 
-<section id="projects" class="py-5">
-    <div class="container">
-        <h3 class="text-center">Projects</h3>
-        <div class="row justify-content-center px-3 px-md-5">
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Member Growth &amp; Engagement Analytics">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/Member%20Growth.png" alt="Member Growth &amp; Engagement Analytics">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">ETL</span>
-                            
-                            <span class="badge badge-secondary">Clustering &amp; Segmentation</span>
-                            
-                            <span class="badge badge-secondary">Time Series Forecasting</span>
-                            
-                            <span class="badge badge-secondary">Regression</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">Member Growth &amp; Engagement Analytics</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            A data science project analyzing 300K&#43; community records to uncover engagement trends and participation gaps across cultural groups and young adults, identifying key drivers to inform outreach strategy and resource allocation.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/Tingyu98/member-growth-engagement-analytics" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="/blogs/member_growth" target="_blank">
-                                Read more
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="NutritionExpert">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/NutritionExpert.jpg" alt="NutritionExpert">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">Computer Vision</span>
-                            
-                            <span class="badge badge-secondary">LLM</span>
-                            
-                            <span class="badge badge-secondary">API Integration</span>
-                            
-                            <span class="badge badge-secondary">Streamlit</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">NutritionExpert</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            An AI-powered nutrition assistant that takes the guesswork out of healthy eating. Upload a meal photo to instantly receive a calorie and macronutrient breakdown, along with personalized diet recommendations tailored to your health goals.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/Tingyu98/NutritionExpert" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="/blogs/nutrition-expert" target="_blank">
-                                Read more
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Arrhythmia Detection">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/Arrhythmia-detection.jpg" alt="Arrhythmia Detection">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">CNN</span>
-                            
-                            <span class="badge badge-secondary">Random Forest</span>
-                            
-                            <span class="badge badge-secondary">ECG Analysis</span>
-                            
-                            <span class="badge badge-secondary">Healthcare AI</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">Arrhythmia Detection</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            An end-to-end machine learning system that detects cardiac arrhythmias from ECG data. Combining feature-based models and deep learning to help catch critical cardiac events before they become life-threatening.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/Tingyu98/arrhythmia-detection" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="/blogs/arrhythmia-detection" target="_blank">
-                                Read more
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Sentiment Analysis of Yelp Reviews">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/Sentiment-Analysis.png" alt="Sentiment Analysis of Yelp Reviews">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">NLP</span>
-                            
-                            <span class="badge badge-secondary">XGBoost</span>
-                            
-                            <span class="badge badge-secondary">Logistic Regression</span>
-                            
-                            <span class="badge badge-secondary">TF-IDF</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">Sentiment Analysis of Yelp Reviews</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            An NLP-powered system that analyzes large-scale Yelp reviews to predict sentiment and help businesses identify service pain points and act on customer feedback.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/Tingyu98/Sentiment-Analysis-" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="/blogs/sentiment-analysis-yelp-reviews" target="_blank">
-                                Read more
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Seattle Bird Sound Classifier">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/Seattle%20Bird%20Sound%20Classifier.jpg" alt="Seattle Bird Sound Classifier">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">Deep Learning</span>
-                            
-                            <span class="badge badge-secondary">Spectrogram</span>
-                            
-                            <span class="badge badge-secondary">Audio Analysis</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">Seattle Bird Sound Classifier</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            A deep learning system that identifies bird species from audio recordings by analyzing spectrograms, turning raw sound into accurate wildlife classification.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/Tingyu98/Analysis-of-Seattle-Bird-Sounds-Deep-Learning" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="/blogs/Seattle_Bird_Sound_Classifier" target="_blank">
-                                Read more
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="United Airlines Profitability &amp; Route Optimization Analysis">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/Airline.jpg" alt="United Airlines Profitability &amp; Route Optimization Analysis">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">Hypothesis Testing</span>
-                            
-                            <span class="badge badge-secondary">Data Visualization</span>
-                            
-                            <span class="badge badge-secondary">Exploratory Data Analysis</span>
-                            
-                            <span class="badge badge-secondary">R</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">United Airlines Profitability &amp; Route Optimization Analysis</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            A statistical deep dive into United Airlines flight data, uncovering how delays, routes, and scheduling decisions directly impact profitability and operational efficiency.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/Tingyu98/Analyzing-Departure-Delays-and-Profitability-for-United-Airlines" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="/blogs/United_Airlines" target="_blank">
-                                Read more
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Global Video Game Market Analysis">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/video%20game.jpg" alt="Global Video Game Market Analysis">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">Power BI</span>
-                            
-                            <span class="badge badge-secondary">Data Wrangling</span>
-                            
-                            <span class="badge badge-secondary">Exploratory Data Analysis</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">Global Video Game Market Analysis</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            A market analysis of the video game industry, revealing how regional trends, consumer preferences, and economic factors influence sales performance.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/Tingyu98/Global-Consumer-and-Market-Trend-Analysis-for-the-Video-Game-Industry" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="/blogs/Video_game" target="_blank">
-                                Read more
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</section>
 <section id="achievements" class="py-5">
     <div class="container">
         <h3 class="text-center">Achievements</h3>
@@ -1381,7 +1299,7 @@ Beth(Ting-Yu) Profile
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="http://localhost:1313/" title="Beth(Ting-Yu) Profile">
+                    <a href="http://localhost:1313/" title="Beth Profile">
                         <img alt="Footer logo" src="/fav.png"
                             height="40px" width="40px">
                     </a>

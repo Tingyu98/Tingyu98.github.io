@@ -62,6 +62,8 @@
   </url><url>
     <loc>http://localhost:1313/blogs/nutrition-expert/</loc>
   </url><url>
+    <loc>http://localhost:1313/blogs/customer-analytics/</loc>
+  </url><url>
     <loc>http://localhost:1313/blogs/seattle_bird_sound_classifier/</loc>
   </url><url>
     <loc>http://localhost:1313/blogs/sentiment-analysis-yelp-reviews/</loc>

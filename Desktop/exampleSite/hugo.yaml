@@ -1,6 +1,6 @@
 baseURL: "https://tingyu98.github.io/"
 languageCode: "en-us"
-title: "Beth(Ting-Yu) Profile"
+title: "Beth Profile"
 theme: hugo-profile
 
 outputs:
@@ -75,7 +75,7 @@ params:
     # defaultTheme: "light" # dark
 
   font:
-    fontSize: 1rem # default: 1rem
+    fontSize: 1.15rem # default: 1rem
     fontWeight: 400 # default: 400
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
@@ -83,8 +83,8 @@ params:
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
   color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
+    textColor: "#2d2d2d"
+    secondaryTextColor: "#3a3a3a"
   #   textLinkColor: "#007bff"
     backgroundColor: "#ECF5FF"
   #   secondaryBackgroundColor: "#64ffda1a"
@@ -123,10 +123,17 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Beth/Ting-Yu."
-    subtitle: "I transform complex, messy data into meaningful insights."
-    content: "With a background in Data Science and Food Science, I combine scientific rigor and practical machine learning skills to deliver results."
+    intro: "<span style='font-size:1.15rem;'>Hi, my name is</span> <span style='color:#0056b3; font-size:3.5rem; font-weight:700;'>Beth Lin</span>."
+    title: ""
+    # subtitle: "I transform complex, messy data into meaningful insights."
+    content: |
+      I'm a **data analyst/data scientist** with a background in both **Data Science and Food Science**. 
+      I spent five years working as a Chemistry Data Analyst in the food testing industry, where I worked with large datasets, built dashboards, and used experimental analysis to improve processes 
+      and support food import decisions. One thing I really enjoyed was turning complex technical results into insights clients could actually use.
+
+      That experience led me to pursue a Master's in Data Science, where I built stronger skills in machine learning, statistics, and predictive analytics. During graduate school, I partnered with a local nonprofit organization to improve data workflows and build machine learning models for strategic planning.
+      
+      What I enjoy most is digging into raw data, uncovering what it's really saying, and using that to help people make better decisions.
     image: /images/hero--.png
     bottomImage:
       enable: true
@@ -134,7 +141,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1EW3_9u0irupt6ST7Tf8Eu_-X_WlE5ZdI/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1iPPfdPvzH1WQepXk1DULag13LLVzM3Ow/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -145,18 +152,18 @@ params:
           url: https://www.linkedin.com/in/tingyu-data/
 
   # About
-  about:
-    enable: true
-    title: "About Me"
-    image: "/images/about.png"
-    content: |-
-      I'm a data scientist with a background that started in chemistry labs and ended up in machine learning.
+  # about:
+  #   enable: true
+  #   title: "About Me"
+  #   image: "/images/about.png"
+  #   content: |-
+  #     I'm a data scientist with a background that started in chemistry labs and ended up in machine learning.
 
-      Before my Master's in Data Science, I spent five years as a Chemistry Data Analyst in the food testing industry. I worked with large-scale laboratory datasets, built compliance dashboards, and helped inform food import decisions with data. One of the parts I valued most was translating technical findings into something clients could actually act on.
+  #     Before my Master's in Data Science, I spent five years as a Chemistry Data Analyst in the food testing industry. I worked with large datasets, built compliance dashboards, and helped inform food import decisions with data. One of the parts I valued most was translating technical findings into something clients could actually act on.
 
-      That experience made me realize how much I loved the analytical side of the work, so I went back to school to go deeper. During my Master's, I partnered with a local nonprofit to overhaul their data workflows, build machine learning models, and create dashboards that shaped their strategic planning.
+  #     That experience made me realize how much I loved the analytical side of the work, so I went back to school to go deeper. During my Master's, I partnered with a local nonprofit to overhaul their data workflows, build machine learning models, and create dashboards that shaped their strategic planning.
       
-      What I enjoy most is digging into raw data, uncovering what it's really saying, and using that to help people make better decisions.
+  #     What I enjoy most is digging into raw data, uncovering what it's really saying, and using that to help people make better decisions.
     
     skills:
       enable: false
@@ -174,22 +181,31 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Data Scientist"
-        #companyUrl: "https://example.com"
-        description: "Client: Seattle Regional Community Organization via Seattle University partnership"
+      - company: "Data Science Intern"
         jobs:
+          - name: "A&H Harmony Homes Inc."
+            date: "Seattle | Jun 2025 – Present"
+            content: |
+              * Designed end-to-end BI solution architecture, building automated SQL-based ETL pipelines to integrate multi-source housing data, reducing manual processing time by ~40% and enabling scalable analytics workflows.
 
-          - name: "Data Scientist"
-            date: "Jan 2025 - Jun 2025"
-            content: |-
-              * Engineered an end-to-end Python ETL pipeline integrating 300K+ records from 15 fragmented sources, performing feature engineering and data wrangling to reduce manual processing from weeks to hours.
+              * Developed self-service Tableau dashboards using LOD expressions, parameter filters and calculated fields to analyze rental yield, price growth, and regional trends, identifying high-return investment opportunities.
 
-              * Developed time-series forecasting and regression models across 20+ variables to identify key engagement drivers and support 3-year supply planning across 10 regions.
+              * Defined and implemented KPI frameworks (rental yield, ROI, price appreciation, demand indicators), partnering with executive stakeholders to translate business requirements into data models and analytics insights.
 
-              * Identified four member segments using PCA and K-means clustering, uncovering behavioral patterns that informed targeted engagement and retention strategies.
-              
-              *  Built Power BI dashboards to analyze 10-year growth trends, uncovering a 20% participation gap among young adults that informed new outreach initiatives targeting this segment. 
+      - company: "Data Science Consultant"
+        jobs:
+          - name: "A.O.S x Seattle U"
+            date: "Seattle | Jan 2025 – Jun 2025"
+            content: |
+              * Engineered scalable SQL/Python data pipelines integrating 300K+ records across 15 sources, reducing processing time from days to hours and enabling downstream reporting and analysis.
 
+              * Developed time-series forecasting and cohort models on 25 years of data to predict community member participation trends, supporting long-term resource allocation across 10 regional markets.
+
+              * Conducted driver analysis using multivariate regression models (20+ features) to quantify key factors driving young adult engagement (demographics, channel exposure, program type), supporting targeted outreach.
+
+              * Built Power BI dashboards leveraging data modeling, DAX measures, Power Query transformations, calculated columns to analyze trends, engagement gaps, and enable interactive reporting.
+
+              * Applied segmentation and clustering techniques to group 136 communities into behavioral cohorts, enabling targeted retention strategies and improving program engagement performance.   
 
             #featuredItems:
               # fontAwesomeIcons:
@@ -210,7 +226,7 @@ params:
       - company: "Data Analyst"
         description: "SGS is a global leader in Testing, Inspection & Certification with 94,000 staff across 140 countries."
         jobs:
-          - name: "Senior Chemistry Data Analyst"
+          - name: "Senior Data Analyst"
             date: "Jan 2019 - Oct 2021"
             content: |
               * Applied causal inference through A/B testing to evaluate process changes, reducing total testing cycle time by 25%.
@@ -219,12 +235,12 @@ params:
               
               * Created Tableau dashboards to monitor compliance KPIs and detect anomalies, reducing report turnaround by 50%.
           
-          - name: "Junior Chemistry Data Analyst"
+          - name: "Junior Data Analyst"
             date: "Jul 2016 - Dec 2018"
             content: |
               * Analyzed chemical composition records across 9 countries to identify compliance risks and partnered with Product, Engineering, and QA teams to support $1M+ import projects.
 
-              * Standardized multi-source data pipelines using advanced Excel and delivered statistical insights to stakeholders, reducing reporting errors by 30% and contributing to 98% client satisfaction. .
+              * Standardized multi-source data pipelines using advanced Excel and delivered statistical insights to stakeholders, reducing reporting errors by 30% and contributing to 98% client satisfaction.
       # - company: "Apple"
       #   companyUrl: "https://example.com"
       #   jobs: 
@@ -311,6 +327,25 @@ params:
     # title: "Custom Name"
     items:
 
+      - title: SaaS Customer Lifecycle Analytics
+        content: Analysis of SaaS customer lifecycle metrics including acquisition, funnel conversion, retention, RFM segmentation, and customer lifetime value.
+        image: /images/projects/SaaS.png
+        featured:
+          name: Read more
+          link: /blogs/customer-analytics
+        badges:
+          - "Funnel Analysis"
+          - "Cohort Analysis"
+          - "RFM Segmentation"
+          - "Customer Lifetime Value"
+        links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            - icon: fab fa-github
+              url: https://github.com/Tingyu98/SaaS-Product-Analytics-Retention-Analysis
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
       - title: Member Growth & Engagement Analytics
         content: A data science project analyzing 300K+ community records to uncover engagement trends and participation gaps across cultural groups and young adults, identifying key drivers to inform outreach strategy and resource allocation.
         image: /images/projects/Member Growth.png
@@ -349,20 +384,20 @@ params:
         #   - icon: fab fa-twitter
         #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Arrhythmia Detection
-        content: An end-to-end machine learning system that detects cardiac arrhythmias from ECG data. Combining feature-based models and deep learning to help catch critical cardiac events before they become life-threatening.
-        image: /images/projects/Arrhythmia-detection.jpg
-        featured:
-          name: Read more
-          link: /blogs/arrhythmia-detection
-        badges:
-          - "CNN"
-          - "Random Forest"
-          - "ECG Analysis"
-          - "Healthcare AI"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Tingyu98/arrhythmia-detection
+      # - title: Arrhythmia Detection
+      #   content: An end-to-end machine learning system that detects cardiac arrhythmias from ECG data. Combining feature-based models and deep learning to help catch critical cardiac events before they become life-threatening.
+      #   image: /images/projects/Arrhythmia-detection.jpg
+      #   featured:
+      #     name: Read more
+      #     link: /blogs/arrhythmia-detection
+      #   badges:
+      #     - "CNN"
+      #     - "Random Forest"
+      #     - "ECG Analysis"
+      #     - "Healthcare AI"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/Tingyu98/arrhythmia-detection
 
       - title:  Sentiment Analysis of Yelp Reviews
         content: An NLP-powered system that analyzes large-scale Yelp reviews to predict sentiment and help businesses identify service pain points and act on customer feedback.
@@ -379,48 +414,48 @@ params:
           - icon: fab fa-github
             url: https://github.com/Tingyu98/Sentiment-Analysis-
 
-      - title:  Seattle Bird Sound Classifier
-        content: A deep learning system that identifies bird species from audio recordings by analyzing spectrograms, turning raw sound into accurate wildlife classification.
-        image: /images/projects/Seattle Bird Sound Classifier.jpg
-        featured:
-          name: Read more
-          link: /blogs/Seattle_Bird_Sound_Classifier
-        badges:
-          - "Deep Learning"
-          - "Spectrogram"
-          - "Audio Analysis"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Tingyu98/Analysis-of-Seattle-Bird-Sounds-Deep-Learning
+      # - title:  Seattle Bird Sound Classifier
+      #   content: A deep learning system that identifies bird species from audio recordings by analyzing spectrograms, turning raw sound into accurate wildlife classification.
+      #   image: /images/projects/Seattle Bird Sound Classifier.jpg
+      #   featured:
+      #     name: Read more
+      #     link: /blogs/Seattle_Bird_Sound_Classifier
+      #   badges:
+      #     - "Deep Learning"
+      #     - "Spectrogram"
+      #     - "Audio Analysis"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/Tingyu98/Analysis-of-Seattle-Bird-Sounds-Deep-Learning
 
-      - title:  United Airlines Profitability & Route Optimization Analysis
-        content: A statistical deep dive into United Airlines flight data, uncovering how delays, routes, and scheduling decisions directly impact profitability and operational efficiency.
-        image: /images/projects/Airline.jpg
-        featured:
-          name: Read more
-          link: /blogs/United_Airlines
-        badges:
-          - "Hypothesis Testing"
-          - "Data Visualization"
-          - "Exploratory Data Analysis"
-          - "R"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Tingyu98/Analyzing-Departure-Delays-and-Profitability-for-United-Airlines
+      # - title:  United Airlines Profitability & Route Optimization Analysis
+      #   content: A statistical deep dive into United Airlines flight data, uncovering how delays, routes, and scheduling decisions directly impact profitability and operational efficiency.
+      #   image: /images/projects/Airline.jpg
+      #   featured:
+      #     name: Read more
+      #     link: /blogs/United_Airlines
+      #   badges:
+      #     - "Hypothesis Testing"
+      #     - "Data Visualization"
+      #     - "Exploratory Data Analysis"
+      #     - "R"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/Tingyu98/Analyzing-Departure-Delays-and-Profitability-for-United-Airlines
             
-      - title:  Global Video Game Market Analysis
-        content: A market analysis of the video game industry, revealing how regional trends, consumer preferences, and economic factors influence sales performance.
-        image: /images/projects/video game.jpg
-        featured:
-          name: Read more
-          link: /blogs/Video_game
-        badges:
-          - "Power BI"
-          - "Data Wrangling"
-          - "Exploratory Data Analysis"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Tingyu98/Global-Consumer-and-Market-Trend-Analysis-for-the-Video-Game-Industry
+      # - title:  Global Video Game Market Analysis
+      #   content: A market analysis of the video game industry, revealing how regional trends, consumer preferences, and economic factors influence sales performance.
+      #   image: /images/projects/video game.jpg
+      #   featured:
+      #     name: Read more
+      #     link: /blogs/Video_game
+      #   badges:
+      #     - "Power BI"
+      #     - "Data Wrangling"
+      #     - "Exploratory Data Analysis"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/Tingyu98/Global-Consumer-and-Market-Trend-Analysis-for-the-Video-Game-Industry
 
   #Contact
   contact:

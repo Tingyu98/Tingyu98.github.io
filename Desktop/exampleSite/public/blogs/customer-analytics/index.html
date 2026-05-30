@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/fav.png" type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/blogs/customer-analytics/">
+  <meta property="og:site_name" content="Beth Profile">
+  <meta property="og:title" content="SaaS Customer Lifecycle Analytics">
+  <meta property="og:description" content="View on GitHub Business Goals The SaaS company aims to improve conversion, retention, and long-term customer value while supporting future product growth strategies.
+However, the business lacks clear visibility into customer engagement and drop-off behavior across the subscription journey, making it difficult to optimize onboarding and retention efforts.
+This project applies funnel analysis, cohort retention analysis, and customer lifetime value (CLV) analysis to identify conversion bottlenecks, retention trends, and high-value customer segments that can support product and business decision-making.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SaaS Customer Lifecycle Analytics">
+  <meta name="twitter:description" content="View on GitHub Business Goals The SaaS company aims to improve conversion, retention, and long-term customer value while supporting future product growth strategies.
+However, the business lacks clear visibility into customer engagement and drop-off behavior across the subscription journey, making it difficult to optimize onboarding and retention efforts.
+This project applies funnel analysis, cohort retention analysis, and customer lifetime value (CLV) analysis to identify conversion bottlenecks, retention trends, and high-value customer segments that can support product and business decision-making.">
+
+
+
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #2d2d2d;
+        --text-secondary-color: #3a3a3a;
+        --text-link-color: #007bff;
+        --background-color: #ECF5FF;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1.15rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+SaaS Customer Lifecycle Analytics | Beth Profile
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/" aria-label="home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/skills" aria-label="skills">
+                            Skills
+                        </a>
+                    </li>
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Projects
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Achievements
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">SaaS Customer Lifecycle Analytics</h1>
+            <div class="text-center">
+              
+              
+
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <style>.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}</style>
+<h2 id="view-on-github"><a href="https://github.com/Tingyu98/SaaS-Product-Analytics-Retention-Analysis" target="_blank" class="gh-btn"><i class="fab fa-github"></i> View on GitHub</a></h2>
+<h2 id="business-goals">Business Goals</h2>
+<p>The SaaS company aims to improve <strong>conversion</strong>, <strong>retention</strong>, and <strong>long-term customer value</strong> while supporting future product growth strategies.</p>
+<p>However, the business lacks clear visibility into customer engagement and drop-off behavior across the subscription journey, making it difficult to optimize onboarding and retention efforts.</p>
+<p>This project applies <strong>funnel analysis</strong>, <strong>cohort retention analysis</strong>, and <strong>customer lifetime value (CLV) analysis</strong> to identify conversion bottlenecks, retention trends, and high-value customer segments that can support product and business decision-making.</p>
+<hr>
+<h2 id="executive-summary">Executive Summary</h2>
+<p>The analysis identified major user drop-off during onboarding and payment stages, while retention declined noticeably between <strong>Month 3 and Month 7</strong>, revealing a key churn period in the customer lifecycle.</p>
+<p><strong>Champions and Loyal Customers</strong> generated over 50% of total revenue, while <strong>At Risk customers</strong> still contributed significant revenue, highlighting strong retention opportunities.</p>
+<p>Among acquisition channels, <strong>LinkedIn Ads</strong> and <strong>Social Media</strong> attracted higher-value customers with stronger CLV performance, while <strong>Enterprise customers</strong> generated the highest long-term customer value.</p>
+<p>The results suggest opportunities to simplify onboarding flows, improve retention during the M3–M7 period, and prioritize high-performing acquisition channels and high-value customer segments.</p>
+<hr>
+<h2 id="dataset-structure">Dataset Structure</h2>
+<p>The dataset includes customer, subscription, revenue, and event-level tables used to analyze user behavior across the SaaS subscription lifecycle.</p>
+<img src="https://github.com/user-attachments/assets/ac01dad2-235f-4bc0-a29d-51e0add371e4" width="700">
+<hr>
+<h2 id="dashboard-preview">Dashboard Preview</h2>
+<p>The interactive dashboards can be found on Tableau Public.
+<a href="https://public.tableau.com/views/SaaS-funnelanalysis/Dashboard1?:language=en-US&amp;publish=yes&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">Funnel</a> /
+<a href="https://public.tableau.com/views/RFMCustomerSegmentation_17797502230320/Dashboard1?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">CLV &amp; RFM</a></p>
+<p><strong>Funnel Analysis Dashboard</strong></p>
+<p>This dashboard focuses on user conversion performance across the SaaS onboarding funnel, including conversion rates, drop-off behavior, traffic distribution, and acquisition source analysis.</p>
+<img width="677" height="660" alt="7ec04ef3-0fef-43ce-892e-12f2b3d5f143" src="https://github.com/user-attachments/assets/0a698126-9ef0-4c91-be44-4b1899d5fa6b" />
+<p><strong>CLV &amp; RFM Segmentation Dashboard</strong></p>
+<p>This dashboard focuses on customer lifetime value, RFM segmentation, revenue contribution, and acquisition channel performance to identify high-value customers and retention opportunities.</p>
+<img width="715" height="718" alt="3f1d7d17-760f-4896-a590-ff6df3830b65" src="https://github.com/user-attachments/assets/876b85fa-e00e-4d9d-82b2-40dcff0905c6" />
+<hr>
+<h2 id="key-insights">Key Insights</h2>
+<p><strong>Funnel Analysis</strong></p>
+<ul>
+<li>Overall conversion from homepage visit to paid subscription was only <strong>2.58%</strong></li>
+<li>The largest drop-off occurred before users reached the pricing page (<strong>64.31% drop-off</strong>)</li>
+<li>Another major bottleneck appeared during the payment stage, where <strong>65.92%</strong> of trial users did not add payment information</li>
+<li>The results suggest opportunities to improve onboarding, pricing page engagement, and payment-stage user experience</li>
+</ul>
+<p><strong>Cohort Retention Insights</strong></p>
+<img src="https://github.com/user-attachments/assets/ab2b33c8-41cf-465a-8ab8-a2f084279acb" width="700">
+<ul>
+<li>Earlier 2024 cohorts showed stronger long-term retention compared to newer 2025 cohorts</li>
+<li>Retention for many cohorts dropped below 50% between Month 3 and Month 7, indicating a key churn period in the customer lifecycle</li>
+</ul>
+<p><strong>RFM &amp; CLV Insights</strong>
+CLV was calculated using cumulative subscription revenue generated by each customer during the analysis period minus customer acquisition cost.</p>
+<ul>
+<li>Champions and Loyal Customers generated over 50% of total revenue, making them the most valuable customer segments</li>
+<li>At Risk customers still contributed the highest total revenue, suggesting strong retention and re-engagement opportunities</li>
+<li>LinkedIn Ads attracted the highest-value customers based on average customer lifetime value (CLV)</li>
+<li>Enterprise plan customers dominated the top CLV segment and generated the strongest long-term revenue contribution</li>
+</ul>
+<hr>
+<h2 id="recommendations">Recommendations</h2>
+<ul>
+<li>
+<p><strong>Onboarding Optimization:</strong> Simplify onboarding and pricing page flows to reduce major drop-off before signup and payment stages</p>
+</li>
+<li>
+<p><strong>Retention &amp; Re-engagement:</strong> Launch targeted email campaigns, renewal reminders, or promotions during the Month 3–Month 7 churn window, especially for high-value At Risk customers</p>
+</li>
+<li>
+<p><strong>High-Value Customer Strategy:</strong> Prioritize retention and upsell strategies for Champions and Loyal Customers, which generated over 50% of total revenue</p>
+</li>
+<li>
+<p><strong>Acquisition Channel Optimization:</strong> Increase investment in LinkedIn Ads and Social media, which attracted higher-value customers with stronger CLV performance</p>
+</li>
+<li>
+<p><strong>Enterprise Growth Strategy:</strong> Focus on Enterprise customer acquisition and retention, as Enterprise users generated the highest long-term customer value</p>
+</li>
+<li>
+<p><strong>Google Ads Evaluation:</strong> Reevaluate Google Ads targeting and campaign quality, as it generated the lowest average CLV among acquisition channels</p>
+</li>
+</ul>
+<hr>
+<h2 id="technical-highlights">Technical Highlights</h2>
+<p>SQL was used to clean, transform, and aggregate SaaS customer event data for funnel, retention, and CLV analysis. Subqueries, CTEs, and window functions were used to analyze user behavior across different stages of the subscription lifecycle.</p>
+<p>Python was used for cohort retention analysis and retention heatmap visualization to identify customer engagement and churn trends over time.</p>
+<p><strong>Example SQL Query</strong></p>
+<p><strong>Funnel Conversion Query</strong></p>
+<p>This query was used to calculate user conversion and drop-off rates across different stages of the SaaS subscription funnel using CTEs and window functions.</p>
+<img width="503" height="469" alt="image" src="https://github.com/user-attachments/assets/8368c3f2-4a7a-4dd0-b1ad-e5b2a06cc601" />
+<p><strong>Cohort Retention Query</strong></p>
+<p>This query was used to assign users into monthly cohorts and calculate retention rates over time using cohort indexing and retention calculations.
+Key functions used include <code>DATE_FORMAT()</code>, <code>TIMESTAMPDIFF()</code>, <code>COUNT(DISTINCT)</code>, CTEs, and JOIN operations.</p>
+<img width="690" height="534" alt="image" src="https://github.com/user-attachments/assets/4b506298-a6fc-4208-9bc2-30ea9b89c45d" />
+<p><strong>RFM Segmentation Logic</strong></p>
+<p>Customers were segmented using RFM (Recency, Frequency, Monetary) analysis.</p>
+<ul>
+<li><strong>Recency (R):</strong> how recently a customer made a payment</li>
+<li><strong>Frequency (F):</strong> how frequently a customer made transactions</li>
+<li><strong>Monetary (M):</strong> customer lifetime value (CLV) and overall revenue contribution</li>
+</ul>
+<p>Each metric was scored from 1 to 5 using <code>NTILE(5)</code> window functions.</p>
+<p>Customer segments were then assigned using business rules:</p>
+<ul>
+<li><strong>Champions:</strong> high recency, frequency, and monetary scores</li>
+<li><strong>Loyal Customers:</strong> consistently active and high-value customers</li>
+<li><strong>New / Promising:</strong> recent customers with growth potential</li>
+<li><strong>At Risk:</strong> previously active customers showing declining engagement</li>
+<li><strong>Lost Customers:</strong> inactive customers with low engagement and value</li>
+</ul>
+<img width="690" height="400" alt="7ba441e0-ef66-441d-bf9b-709dc5bd3665" src="https://github.com/user-attachments/assets/fac312dd-d972-4e9f-a53c-bb5ccce934f4" />
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#view-on-github"><i class="fab fa-github"></i> View on GitHub</a></li>
+    <li><a href="#business-goals">Business Goals</a></li>
+    <li><a href="#executive-summary">Executive Summary</a></li>
+    <li><a href="#dataset-structure">Dataset Structure</a></li>
+    <li><a href="#dashboard-preview">Dashboard Preview</a></li>
+    <li><a href="#key-insights">Key Insights</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
+    <li><a href="#technical-highlights">Technical Highlights</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+
+
+  </div><footer>
+    
+
+
+  
+
+ 
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/Tingyu98" target="_blank" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/tingyu-data/" target="_blank" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Beth Profile">
+                        <img alt="Footer logo" src="/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
