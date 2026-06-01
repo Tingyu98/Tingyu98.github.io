@@ -26,7 +26,6 @@ A data science project focused on analyzing community engagement patterns within
 - How are different cultural communities growing or declining over time?  
 - What factors drive engagement, especially among young adults?  
 - Do language-specific services impact participation and financial outcomes?  
-- How do structural changes influence community engagement?  
 - What are the projected participation trends over the next 3–5 years?  
 
 ---
@@ -54,11 +53,17 @@ A data science project focused on analyzing community engagement patterns within
 
 ---
 
-## Use Cases
-- Support strategic planning for community programs  
-- Optimize resource allocation across regions  
-- Design targeted outreach strategies for underserved groups  
-- Inform leadership decisions on program expansion and restructuring  
+## Key Insights
+
+**Forecasting** – Registered households are projected to decline by approximately **5,633** between 2024–2027, representing a **4.45% decrease** in participation.
+
+**Cultural Communities** – Communities offering **Spanish (+7.5%)** and **Vietnamese (+27.7%)** services experienced growth despite an overall registration decline of **6.7%**, highlighting shifting demographic trends.
+
+**Young Adult Engagement** – Young adults (ages 18–39) represented approximately **29%** of participants. Revenue, baptisms, and Hispanic/Latino populations were positively associated with young adult participation, while a **20% registration gap** suggests continued opportunities for engagement.
+
+**Language & Cultural Services** – Communities offering non-English services generally demonstrated higher participation levels, although stronger engagement did not necessarily translate into higher financial outcomes.
+
+**Community Segmentation** – PCA identified distinct demographic clusters driven by racial, marital, and cultural diversity, suggesting that targeted outreach strategies may be more effective than a one-size-fits-all approach. 
 
 ---
 

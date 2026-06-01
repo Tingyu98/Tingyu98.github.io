@@ -34,3 +34,13 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+#single .page-content ul {
+    padding-left: 2em !important;
+    list-style-position: outside !important;
+}
+
+#single .page-content ul li {
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+}
