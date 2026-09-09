@@ -186,7 +186,7 @@ params:
       - company: "Data Science Intern"
         jobs:
           - name: "A&H Harmony Homes Inc."
-            date: "Seattle | Jun 2025 – Present"
+            date: "Seattle | Sep 2025 – Present"
             content: |
               * Designed an end-to-end BI solution powered by automated Python ETL pipelines for multi-source housing data, saving ~4 hours/week of manual work.
             
@@ -229,7 +229,7 @@ params:
         description: "SGS is a global leader in Testing, Inspection & Certification, with over 100,000 employees across 115 countries."
         jobs:
           - name: "Senior Data Analyst"
-            date: "Jan 2019 - Oct 2021"
+            date: "Jul 2016 - Oct 2021"
             content: |
               * Led cross-functional analysis of food safety data across 5 laboratories, structuring results for Product, Engineering, and QA to support import and market-release decisions. 
               
@@ -303,7 +303,7 @@ params:
           - title: "Master of Food Science"
             school: "National Taiwan Ocean University"
             date: "2014 - 2016"
-            GPA: "3.9 out of 5.0"
+            GPA: "3.9 out of 4.0"
       - name: "Bachelor's"
         items:
           - title: "Bachelor of Food Science"
