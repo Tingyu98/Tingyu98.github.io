@@ -143,6 +143,11 @@ params:
       url: "https://drive.google.com/file/d/1chqZ2TgBhth8Rf8R2Bkx67KCl6Gqk70k/view?usp=sharing"
       download: true
       newPage: false
+    secondaryLink:
+      enable: true
+      name: "中文介紹"
+      url: "/intro-zh.html"
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
