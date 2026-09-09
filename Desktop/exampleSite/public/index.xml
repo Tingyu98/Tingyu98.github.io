@@ -1,117 +1,140 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ting-Yu Profile</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Ting-Yu Profile</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Skills</title>
-      <link>http://localhost:1313/skills/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/skills/</guid>
-      <description>&lt;h2 id=&#34;programming--tools&#34;&gt;Programming &amp;amp; Tools&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python (Pandas, NumPy, Scikit-learn, TensorFlow)&lt;/li&gt;&#xA;&lt;li&gt;SQL&lt;/li&gt;&#xA;&lt;li&gt;R&lt;/li&gt;&#xA;&lt;li&gt;Power BI / Tableau&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;machine-learning&#34;&gt;Machine Learning&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Supervised Learning&lt;/li&gt;&#xA;&lt;li&gt;Unsupervised Learning&lt;/li&gt;&#xA;&lt;li&gt;Deep Learning&lt;/li&gt;&#xA;&lt;li&gt;NLP&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;data-engineering&#34;&gt;Data Engineering&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ETL Pipeline Development&lt;/li&gt;&#xA;&lt;li&gt;Feature Engineering&lt;/li&gt;&#xA;&lt;li&gt;Data Wrangling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A/B Testing &amp;amp; Causal Inference&lt;/li&gt;&#xA;&lt;li&gt;Statistical Analysis&lt;/li&gt;&#xA;&lt;li&gt;Excel (Advanced)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Image Converter</title>
-      <link>http://localhost:1313/blogs/image-converter/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/image-converter/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;!-- 放截圖或 demo 連結 --&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;!-- 列出主要功能 --&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;!-- 使用的技術 --&gt;&#xA;&lt;h2 id=&#34;challenges--learnings&#34;&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;&#xA;&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description>
-    </item>
-    <item>
-      <title>Render Math With Mathjax</title>
-      <link>http://localhost:1313/blogs/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/math/</guid>
-      <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Math equations can be rendered using &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;&#xA;&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;The raw version is:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Image Gallery</title>
-      <link>http://localhost:1313/gallery/</link>
-      <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
-      <guid>http://localhost:1313/gallery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown Syntax</title>
-      <link>http://localhost:1313/blogs/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/markdown-syntax/</guid>
-      <description>&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;&#xA;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/blogs/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways. :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;emoji-support&#34;&gt;Emoji Support&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/blogs/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;&#xA;&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;&#xA;&lt;li&gt;Duce pollice&lt;/li&gt;&#xA;&lt;li&gt;Eris modo&lt;/li&gt;&#xA;&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Arrhythmia Detection</title>
-      <link>http://localhost:1313/blogs/arrhythmia-detection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/arrhythmia-detection/</guid>
-      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;h2 id=&#34;view-on-github&#34;&gt;&lt;a href=&#34;https://github.com/Tingyu98/arrhythmia-detection&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built an end-to-end ECG arrhythmia detection pipeline using machine learning and deep learning&lt;/li&gt;&#xA;&lt;li&gt;Achieved ~90% accuracy and strong abnormal recall using Random Forest and 1D CNN&lt;/li&gt;&#xA;&lt;li&gt;Extracted physiological features (HRV, RR intervals, QRS) for interpretable modeling&lt;/li&gt;&#xA;&lt;li&gt;Developed an interactive Streamlit app for real-time ECG analysis and visualization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project develops an AI-powered system to detect cardiac arrhythmias from ECG signals.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Departure Delays and Profitability Analysis for United Airlines</title>
-      <link>http://localhost:1313/blogs/united_airlines/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/united_airlines/</guid>
-      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Tingyu98/Analyzing-Departure-Delays-and-Profitability-for-United-Airlines&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyzed United Airlines flight performance using the nycflights13 dataset&lt;/li&gt;&#xA;&lt;li&gt;Identified key drivers of departure delays including time of day, seasonality, and weather conditions&lt;/li&gt;&#xA;&lt;li&gt;Established statistical relationships between delays and profitability using hypothesis testing&lt;/li&gt;&#xA;&lt;li&gt;Derived actionable insights to improve operational efficiency and flight profitability&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project analyzes departure delays and profitability for United Airlines using the nycflights13 dataset.&lt;/p&gt;&#xA;&lt;p&gt;By combining exploratory data analysis, statistical testing, and integration with weather data, the project identifies key factors affecting flight delays and evaluates how operational efficiency impacts profitability.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Global Video Game Market Analysis</title>
-      <link>http://localhost:1313/blogs/video_game/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/video_game/</guid>
-      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Tingyu98/Global-Consumer-and-Market-Trend-Analysis-for-the-Video-Game-Industry&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyzed global video game market trends (1980–2020) using multi-source datasets&lt;/li&gt;&#xA;&lt;li&gt;Integrated sales, ratings, and economic data (GDP) for comprehensive analysis&lt;/li&gt;&#xA;&lt;li&gt;Identified key drivers of game success across genres, platforms, and regions&lt;/li&gt;&#xA;&lt;li&gt;Built interactive Power BI dashboard for dynamic exploration of market trends&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project analyzes global video game market trends to understand the factors influencing sales performance across regions, genres, platforms, and publishers.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Member Growth &amp; Engagement Analytics</title>
-      <link>http://localhost:1313/blogs/member_growth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/member_growth/</guid>
-      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Tingyu98/member-growth-engagement-analytics&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyzed 300K+ records spanning 20+ years of demographic, financial, and participation data&lt;/li&gt;&#xA;&lt;li&gt;Identified a 20% participation gap among young adults across regions&lt;/li&gt;&#xA;&lt;li&gt;Built an end-to-end ETL pipeline, reducing processing time from weeks to hours&lt;/li&gt;&#xA;&lt;li&gt;Delivered insights that informed outreach strategy, resource allocation, and long-term planning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A data science project focused on analyzing community engagement patterns within a nonprofit organization. By integrating demographic, financial, and participation data (2001–2024), this study uncovers trends across cultural groups and young adults to support program development.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>NutritionExpert</title>
-      <link>http://localhost:1313/blogs/nutrition-expert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/nutrition-expert/</guid>
-      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Tingyu98/NutritionExpert&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built an end-to-end AI-powered nutrition analysis system using YOLOv8, GPT-4, and external APIs&lt;/li&gt;&#xA;&lt;li&gt;Achieved ~73% mAP in food detection across 65 food categories&lt;/li&gt;&#xA;&lt;li&gt;Integrated real-time nutrition data and personalized diet recommendations&lt;/li&gt;&#xA;&lt;li&gt;Delivered an interactive Streamlit app for real-world usability&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s fast-paced world, maintaining a healthy diet is increasingly challenging. NutritionExpert is an AI-powered system that analyzes meal images and generates personalized diet recommendations.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SaaS Customer Lifecycle Analytics &amp; Dashboards</title>
-      <link>http://localhost:1313/blogs/customer-analytics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/customer-analytics/</guid>
-      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;h2 id=&#34;view-on-github&#34;&gt;&lt;a href=&#34;https://github.com/Tingyu98/SaaS-Product-Analytics-Retention-Analysis&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;business-goals&#34;&gt;Business Goals&lt;/h2&gt;&#xA;&lt;p&gt;The SaaS company aims to improve &lt;strong&gt;conversion&lt;/strong&gt;, &lt;strong&gt;retention&lt;/strong&gt;, and &lt;strong&gt;long-term customer value&lt;/strong&gt; while supporting future product growth strategies.&lt;/p&gt;&#xA;&lt;p&gt;However, the business lacks clear visibility into customer engagement and drop-off behavior across the subscription journey, making it difficult to optimize onboarding and retention efforts.&lt;/p&gt;&#xA;&lt;p&gt;This project applies &lt;strong&gt;funnel analysis&lt;/strong&gt;, &lt;strong&gt;cohort retention analysis&lt;/strong&gt;, and &lt;strong&gt;customer lifetime value (CLV) analysis&lt;/strong&gt; to identify conversion bottlenecks, retention trends, and high-value customer segments that can support product and business decision-making.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Seattle Bird Sound Classifier</title>
-      <link>http://localhost:1313/blogs/seattle_bird_sound_classifier/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/seattle_bird_sound_classifier/</guid>
-      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Tingyu98/Analysis-of-Seattle-Bird-Sounds-Deep-Learning&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built deep learning models to classify bird species from audio recordings using spectrograms&lt;/li&gt;&#xA;&lt;li&gt;Achieved 95% accuracy in binary classification between two bird species&lt;/li&gt;&#xA;&lt;li&gt;Developed multi-class classification model for 12 species, highlighting real-world complexity&lt;/li&gt;&#xA;&lt;li&gt;Applied audio signal processing and neural networks to a real-world ecological dataset&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project applies deep learning techniques to identify bird species from audio recordings.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sentiment Analysis of Yelp Reviews</title>
-      <link>http://localhost:1313/blogs/sentiment-analysis-yelp-reviews/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/sentiment-analysis-yelp-reviews/</guid>
-      <description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Tingyu98/Sentiment-Analysis-&#34; target=&#34;_blank&#34; class=&#34;gh-btn&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyzed 150K restaurant reviews from a 6M+ Yelp dataset using NLP techniques&lt;/li&gt;&#xA;&lt;li&gt;Built sentiment classification models using TF-IDF, Logistic Regression, and XGBoost&lt;/li&gt;&#xA;&lt;li&gt;Achieved ~94% F1-score with XGBoost, outperforming baseline models&lt;/li&gt;&#xA;&lt;li&gt;Identified key drivers of negative sentiment, including service delays and order issues&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project applies Natural Language Processing (NLP) and machine learning techniques to analyze restaurant reviews from Yelp.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ting-Yu Profile</title><link>https://tingyu98.github.io/</link><description>Recent content on Ting-Yu Profile</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tingyu98.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Skills</title><link>https://tingyu98.github.io/skills/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/skills/</guid><description>&lt;h2 id="programming--tools"&gt;Programming &amp;amp; Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python (Pandas, NumPy, Scikit-learn, TensorFlow)&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;R&lt;/li&gt;
+&lt;li&gt;Power BI / Tableau&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="machine-learning"&gt;Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Supervised Learning&lt;/li&gt;
+&lt;li&gt;Unsupervised Learning&lt;/li&gt;
+&lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;li&gt;NLP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="data-engineering"&gt;Data Engineering&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ETL Pipeline Development&lt;/li&gt;
+&lt;li&gt;Feature Engineering&lt;/li&gt;
+&lt;li&gt;Data Wrangling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="other"&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A/B Testing &amp;amp; Causal Inference&lt;/li&gt;
+&lt;li&gt;Statistical Analysis&lt;/li&gt;
+&lt;li&gt;Excel (Advanced)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Image Converter</title><link>https://tingyu98.github.io/blogs/image-converter/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/image-converter/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;!-- 在這裡寫這個 project 的詳細介紹 --&gt;
+&lt;h2 id="demo"&gt;Demo&lt;/h2&gt;
+&lt;!-- 放截圖或 demo 連結 --&gt;
+&lt;h2 id="features"&gt;Features&lt;/h2&gt;
+&lt;!-- 列出主要功能 --&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack&lt;/h2&gt;
+&lt;!-- 使用的技術 --&gt;
+&lt;h2 id="challenges--learnings"&gt;Challenges &amp;amp; Learnings&lt;/h2&gt;
+&lt;!-- 遇到的挑戰和學到的東西 --&gt;</description></item><item><title>Render Math With Mathjax</title><link>https://tingyu98.github.io/blogs/math/</link><pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate><guid>https://tingyu98.github.io/blogs/math/</guid><description>&lt;h2 id="mathjax"&gt;Mathjax&lt;/h2&gt;
+&lt;p&gt;Math equations can be rendered using &lt;a href="https://www.mathjax.org"&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;
+&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;
+&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;
+&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;
+&lt;p&gt;The raw version is:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description></item><item><title>Image Gallery</title><link>https://tingyu98.github.io/gallery/</link><pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate><guid>https://tingyu98.github.io/gallery/</guid><description/></item><item><title>Markdown Syntax</title><link>https://tingyu98.github.io/blogs/markdown-syntax/</link><pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate><guid>https://tingyu98.github.io/blogs/markdown-syntax/</guid><description>&lt;h2 id="paragraph"&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description></item><item><title>Emoji Support</title><link>https://tingyu98.github.io/blogs/emoji-support/</link><pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate><guid>https://tingyu98.github.io/blogs/emoji-support/</guid><description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways. :zap:&lt;/p&gt;
+&lt;h2 id="emoji-support"&gt;Emoji Support&lt;/h2&gt;
+&lt;p&gt;The &lt;a href="https://gohugo.io/functions/emojify/"&gt;emojify&lt;/a&gt; function can be called directly in templates or &lt;a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes"&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href="https://gohugo.io/getting-started/configuration/"&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="http://www.emoji-cheat-sheet.com/"&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;</description></item><item><title>Placeholder Text</title><link>https://tingyu98.github.io/blogs/placeholder-text/</link><pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate><guid>https://tingyu98.github.io/blogs/placeholder-text/</guid><description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
+&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
+&lt;li&gt;Duce pollice&lt;/li&gt;
+&lt;li&gt;Eris modo&lt;/li&gt;
+&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;</description></item><item><title>Arrhythmia Detection</title><link>https://tingyu98.github.io/blogs/arrhythmia-detection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/arrhythmia-detection/</guid><description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;
+&lt;h2 id="view-on-github"&gt;&lt;a href="https://github.com/Tingyu98/arrhythmia-detection" target="_blank" class="gh-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Built an end-to-end ECG arrhythmia detection pipeline using machine learning and deep learning&lt;/li&gt;
+&lt;li&gt;Achieved ~90% accuracy and strong abnormal recall using Random Forest and 1D CNN&lt;/li&gt;
+&lt;li&gt;Extracted physiological features (HRV, RR intervals, QRS) for interpretable modeling&lt;/li&gt;
+&lt;li&gt;Developed an interactive Streamlit app for real-time ECG analysis and visualization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project develops an AI-powered system to detect cardiac arrhythmias from ECG signals.&lt;/p&gt;</description></item><item><title>Departure Delays and Profitability Analysis for United Airlines</title><link>https://tingyu98.github.io/blogs/united_airlines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/united_airlines/</guid><description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://github.com/Tingyu98/Analyzing-Departure-Delays-and-Profitability-for-United-Airlines" target="_blank" class="gh-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyzed United Airlines flight performance using the nycflights13 dataset&lt;/li&gt;
+&lt;li&gt;Identified key drivers of departure delays including time of day, seasonality, and weather conditions&lt;/li&gt;
+&lt;li&gt;Established statistical relationships between delays and profitability using hypothesis testing&lt;/li&gt;
+&lt;li&gt;Derived actionable insights to improve operational efficiency and flight profitability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project analyzes departure delays and profitability for United Airlines using the nycflights13 dataset.&lt;/p&gt;
+&lt;p&gt;By combining exploratory data analysis, statistical testing, and integration with weather data, the project identifies key factors affecting flight delays and evaluates how operational efficiency impacts profitability.&lt;/p&gt;</description></item><item><title>Global Video Game Market Analysis</title><link>https://tingyu98.github.io/blogs/video_game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/video_game/</guid><description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://github.com/Tingyu98/Global-Consumer-and-Market-Trend-Analysis-for-the-Video-Game-Industry" target="_blank" class="gh-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyzed global video game market trends (1980–2020) using multi-source datasets&lt;/li&gt;
+&lt;li&gt;Integrated sales, ratings, and economic data (GDP) for comprehensive analysis&lt;/li&gt;
+&lt;li&gt;Identified key drivers of game success across genres, platforms, and regions&lt;/li&gt;
+&lt;li&gt;Built interactive Power BI dashboard for dynamic exploration of market trends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project analyzes global video game market trends to understand the factors influencing sales performance across regions, genres, platforms, and publishers.&lt;/p&gt;</description></item><item><title>Member Growth &amp; Engagement Analytics</title><link>https://tingyu98.github.io/blogs/member_growth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/member_growth/</guid><description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://github.com/Tingyu98/member-growth-engagement-analytics" target="_blank" class="gh-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyzed 300K+ records spanning 20+ years of demographic, financial, and participation data&lt;/li&gt;
+&lt;li&gt;Identified a 20% participation gap among young adults across regions&lt;/li&gt;
+&lt;li&gt;Built an end-to-end ETL pipeline, reducing processing time from weeks to hours&lt;/li&gt;
+&lt;li&gt;Delivered insights that informed outreach strategy, resource allocation, and long-term planning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A data science project focused on analyzing community engagement patterns within a nonprofit organization. By integrating demographic, financial, and participation data (2001–2024), this study uncovers trends across cultural groups and young adults to support program development.&lt;/p&gt;</description></item><item><title>NutritionExpert</title><link>https://tingyu98.github.io/blogs/nutrition-expert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/nutrition-expert/</guid><description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://github.com/Tingyu98/NutritionExpert" target="_blank" class="gh-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Built an end-to-end AI-powered nutrition analysis system using YOLOv8, GPT-4, and external APIs&lt;/li&gt;
+&lt;li&gt;Achieved ~73% mAP in food detection across 65 food categories&lt;/li&gt;
+&lt;li&gt;Integrated real-time nutrition data and personalized diet recommendations&lt;/li&gt;
+&lt;li&gt;Delivered an interactive Streamlit app for real-world usability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In today&amp;rsquo;s fast-paced world, maintaining a healthy diet is increasingly challenging. NutritionExpert is an AI-powered system that analyzes meal images and generates personalized diet recommendations.&lt;/p&gt;</description></item><item><title>SaaS Customer Lifecycle Analytics &amp; Dashboards</title><link>https://tingyu98.github.io/blogs/customer-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/customer-analytics/</guid><description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;
+&lt;h2 id="view-on-github"&gt;&lt;a href="https://github.com/Tingyu98/SaaS-Product-Analytics-Retention-Analysis" target="_blank" class="gh-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="business-goals"&gt;Business Goals&lt;/h2&gt;
+&lt;p&gt;The SaaS company aims to improve &lt;strong&gt;conversion&lt;/strong&gt;, &lt;strong&gt;retention&lt;/strong&gt;, and &lt;strong&gt;long-term customer value&lt;/strong&gt; while supporting future product growth strategies.&lt;/p&gt;
+&lt;p&gt;However, the business lacks clear visibility into customer engagement and drop-off behavior across the subscription journey, making it difficult to optimize onboarding and retention efforts.&lt;/p&gt;
+&lt;p&gt;This project applies &lt;strong&gt;funnel analysis&lt;/strong&gt;, &lt;strong&gt;cohort retention analysis&lt;/strong&gt;, and &lt;strong&gt;customer lifetime value (CLV) analysis&lt;/strong&gt; to identify conversion bottlenecks, retention trends, and high-value customer segments that can support product and business decision-making.&lt;/p&gt;</description></item><item><title>Seattle Bird Sound Classifier</title><link>https://tingyu98.github.io/blogs/seattle_bird_sound_classifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/seattle_bird_sound_classifier/</guid><description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://github.com/Tingyu98/Analysis-of-Seattle-Bird-Sounds-Deep-Learning" target="_blank" class="gh-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Built deep learning models to classify bird species from audio recordings using spectrograms&lt;/li&gt;
+&lt;li&gt;Achieved 95% accuracy in binary classification between two bird species&lt;/li&gt;
+&lt;li&gt;Developed multi-class classification model for 12 species, highlighting real-world complexity&lt;/li&gt;
+&lt;li&gt;Applied audio signal processing and neural networks to a real-world ecological dataset&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project applies deep learning techniques to identify bird species from audio recordings.&lt;/p&gt;</description></item><item><title>Sentiment Analysis of Yelp Reviews</title><link>https://tingyu98.github.io/blogs/sentiment-analysis-yelp-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tingyu98.github.io/blogs/sentiment-analysis-yelp-reviews/</guid><description>&lt;style&gt;.gh-btn,.gh-btn:hover,.gh-btn:focus,.gh-btn:active{display:inline-flex!important;align-items:center!important;gap:6px!important;padding:6px 14px!important;background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:6px!important;text-decoration:none!important;font-size:0.9rem!important;margin-bottom:1.5rem!important;transform:none!important;box-shadow:none!important;white-space:nowrap!important;width:auto!important;}&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://github.com/Tingyu98/Sentiment-Analysis-" target="_blank" class="gh-btn"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyzed 150K restaurant reviews from a 6M+ Yelp dataset using NLP techniques&lt;/li&gt;
+&lt;li&gt;Built sentiment classification models using TF-IDF, Logistic Regression, and XGBoost&lt;/li&gt;
+&lt;li&gt;Achieved ~94% F1-score with XGBoost, outperforming baseline models&lt;/li&gt;
+&lt;li&gt;Identified key drivers of negative sentiment, including service delays and order issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project applies Natural Language Processing (NLP) and machine learning techniques to analyze restaurant reviews from Yelp.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ting-Yu Lin 自我介紹</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+  :root {
+    --paper: #F5F6F3;
+    --paper-2: #EBEEE9;
+    --ink: #1B2321;
+    --ink-2: #4A5552;
+    --ink-3: #7B8582;
+    --line: #D3D9D4;
+    --accent: #1E6B5F;
+    --accent-soft: #DCEAE5;
+    --clay: #A8583B;
+    --serif: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+    --sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    --mono: "IBM Plex Mono", "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #151A19; --paper-2: #1E2524; --ink: #ECEFEC; --ink-2: #B4BDB9; --ink-3: #7F8985;
+      --line: #2E3735; --accent: #6FBFAE; --accent-soft: #1F3430; --clay: #D98A6A;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #151A19; --paper-2: #1E2524; --ink: #ECEFEC; --ink-2: #B4BDB9; --ink-3: #7F8985;
+    --line: #2E3735; --accent: #6FBFAE; --accent-soft: #1F3430; --clay: #D98A6A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--sans); font-size: 16px; line-height: 1.8;
+    padding-block: 56px 80px; padding-inline: 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+  a:hover, a:focus-visible { border-bottom-color: var(--accent); outline: none; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* header */
+  .hd { display: grid; grid-template-columns: 1fr auto; gap: 24px 40px; align-items: end; padding-bottom: 28px; border-bottom: 2px solid var(--ink); }
+  .hd h1 { font-family: var(--serif); font-weight: 700; font-size: 40px; line-height: 1.15; margin: 0 0 6px; letter-spacing: 0.01em; text-wrap: balance; }
+  .hd h1 span { font-family: var(--sans); font-weight: 400; font-size: 18px; color: var(--ink-2); margin-left: 12px; letter-spacing: 0.02em; }
+  .hd .role { font-size: 17px; color: var(--ink-2); margin: 0; }
+  .hd .role b { color: var(--accent); font-weight: 700; }
+  .meta { font-size: 14px; color: var(--ink-2); line-height: 2; text-align: right; }
+  .meta a { margin-left: 14px; }
+
+  /* section rail */
+  .sec { display: grid; grid-template-columns: 160px 1fr; gap: 12px 40px; padding-block: 36px; border-bottom: 1px solid var(--line); }
+  .sec:last-of-type { border-bottom: 0; }
+  .sec > h2 { margin: 0; font-family: var(--sans); font-weight: 500; font-size: 13px; letter-spacing: 0.14em; color: var(--ink-3); padding-top: 6px; }
+  .sec > h2 small { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; color: var(--ink-3); margin-top: 2px; }
+  .body { max-width: 640px; }
+  .body p { margin: 0 0 14px; }
+  .body p:last-child { margin-bottom: 0; }
+  .lede { font-size: 18px; line-height: 1.85; }
+  .lede em { font-style: normal; color: var(--accent); font-weight: 500; }
+
+  /* two positions */
+  .fits { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; max-width: none; }
+  .fit { background: var(--paper-2); padding: 18px 18px 16px; border-top: 3px solid var(--accent); }
+  .fit.alt { border-top-color: var(--clay); }
+  .fit h3 { margin: 0 0 6px; font-family: var(--serif); font-size: 18px; font-weight: 700; }
+  .fit .tag { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--ink-3); margin-bottom: 10px; }
+  .fit p { font-size: 14px; color: var(--ink-2); margin: 0 0 10px; line-height: 1.75; }
+  .fit ul { margin: 0; padding-left: 16px; font-size: 13.5px; color: var(--ink-2); line-height: 1.7; }
+  .fit li { margin-bottom: 3px; }
+
+  /* numbers */
+  .nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px 24px; max-width: none; }
+  .num { border-left: 2px solid var(--line); padding-left: 14px; }
+  .num b { display: block; font-family: var(--mono); font-size: 26px; font-weight: 500; color: var(--ink); letter-spacing: -0.01em; font-variant-numeric: tabular-nums; line-height: 1.2; }
+  .num span { font-size: 13.5px; color: var(--ink-2); line-height: 1.6; display: block; margin-top: 4px; }
+
+  /* timeline */
+  .jobs { display: flex; flex-direction: column; gap: 22px; max-width: none; }
+  .job { display: grid; grid-template-columns: 150px 1fr; gap: 6px 20px; }
+  .job .when { font-family: var(--mono); font-size: 12.5px; color: var(--ink-3); padding-top: 5px; letter-spacing: 0.02em; }
+  .job h3 { margin: 0; font-size: 17px; font-weight: 700; }
+  .job h3 span { font-weight: 400; color: var(--ink-2); font-size: 15px; margin-left: 8px; }
+  .job ul { margin: 6px 0 0; padding-left: 18px; color: var(--ink-2); font-size: 15px; line-height: 1.75; }
+  .job li { margin-bottom: 3px; }
+  .job li strong { color: var(--ink); font-weight: 500; }
+
+  /* projects */
+  .projs { display: flex; flex-direction: column; gap: 14px; max-width: none; }
+  .proj { display: grid; grid-template-columns: 1fr; gap: 2px; padding: 14px 0; border-top: 1px solid var(--line); }
+  .proj:first-child { border-top: 0; padding-top: 0; }
+  .proj h3 { margin: 0; font-size: 16px; font-weight: 700; }
+  .proj h3 span { font-family: var(--sans); font-size: 13px; font-weight: 400; color: var(--ink-3); margin-left: 12px; }
+  .proj h3 span a { font-weight: 400; }
+  .proj p { margin: 0; color: var(--ink-2); font-size: 15px; }
+  .note { font-size: 13px; color: var(--ink-3); }
+
+  .edu p { margin: 0 0 6px; }
+  .edu .when { font-family: var(--mono); font-size: 12.5px; color: var(--ink-3); margin-left: 10px; }
+
+  .close { background: var(--accent-soft); padding: 22px 26px; margin-top: 8px; }
+  .close p { margin: 0; font-size: 16px; }
+  .close p + p { margin-top: 8px; font-size: 14.5px; color: var(--ink-2); }
+
+  @media (max-width: 720px) {
+    body { padding-block: 36px 60px; }
+    .hd { grid-template-columns: 1fr; align-items: start; }
+    .hd h1 { font-size: 32px; }
+    .hd h1 span { display: block; margin: 4px 0 0; }
+    .meta { text-align: left; }
+    .meta a { margin: 0 14px 0 0; }
+    .sec { grid-template-columns: 1fr; gap: 8px; padding-block: 28px; }
+    .fits { grid-template-columns: 1fr; }
+    .nums { grid-template-columns: 1fr 1fr; }
+    .job { grid-template-columns: 1fr; gap: 2px; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    a { transition: border-color .15s ease; }
+  }
+
+  @media print {
+    body { padding: 0; font-size: 11.5px; line-height: 1.5; background: #fff; color: #1B2321; }
+    .wrap { max-width: none; }
+    .hd { padding-bottom: 10px; grid-template-columns: 1fr auto; }
+    .hd h1 { font-size: 26px; }
+    .hd .role { font-size: 13px; }
+    .meta { font-size: 11px; line-height: 1.7; }
+    .sec { grid-template-columns: 100px 1fr; gap: 4px 20px; padding-block: 9px; }
+    .sec > h2 { font-size: 10.5px; }
+    .sec > h2 small { font-size: 9px; }
+    .body { max-width: none; }
+    .body p { margin-bottom: 8px; }
+    .fits { grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+    .fit { padding: 8px 11px; }
+    .fit h3 { font-size: 13.5px; }
+    .fit p { font-size: 11px; line-height: 1.45; margin-bottom: 5px; }
+    .fit ul { font-size: 10.5px; line-height: 1.45; }
+    .jobs { gap: 7px; }
+    .job { grid-template-columns: 110px 1fr; gap: 2px 14px; break-inside: avoid; }
+    .job .when { font-size: 10.5px; }
+    .job h3 { font-size: 13.5px; }
+    .job h3 span { font-size: 12px; }
+    .job ul { font-size: 11px; line-height: 1.45; margin-top: 3px; }
+    .projs { gap: 2px; }
+    .proj { padding: 5px 0; break-inside: avoid; }
+    .proj h3 { font-size: 13px; }
+    .proj h3 span { font-size: 11px; }
+    .proj p { font-size: 12px; }
+    .edu p { font-size: 12px; margin-bottom: 3px; }
+    a { border-bottom: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hd">
+    <div>
+      <h1>Ting-Yu Lin</h1>
+      <p class="role">資料分析師｜<b>五年食品檢驗數據</b> × <b>資料科學碩士</b></p>
+    </div>
+    <div class="meta">
+      bethlin034@gmail.com<br>
+      <a href="https://www.linkedin.com/in/tingyu-data/">LinkedIn</a>
+      <a href="https://github.com/Tingyu98">GitHub</a>
+      <a href="https://public.tableau.com/app/profile/ting.yu.lin4402/vizzes">Tableau Public</a>
+      <a href="https://tingyu98.github.io/">作品集網站</a>
+    </div>
+  </header>
+
+  <section class="sec">
+    <h2>我是誰<small>ABOUT</small></h2>
+    <div class="body">
+      <p>我在 SGS 做了五年食品檢驗數據分析，負責的檢驗報告是進口商決定一批產品能不能進入市場的依據。後來到美國讀資料科學碩士，把這五年「親手產出數據、驗證數據」的經驗，接上 SQL、Python、Tableau、Power BI 這些現代工具。</p>
+      <p>我以前是自己做出數據的人，所以很清楚數字在哪些環節會走樣。看到一個突然變好或變壞的數字，我會先確認它是真的變化，還是測量方式或短期活動所造成，再決定要不要據此行動。</p>
+      <p>目前在西雅圖的 A&amp;H Harmony Homes 擔任資料科學實習，替房地產投資團隊建自動化資料管線與自助式儀表板。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>經歷<small>EXPERIENCE</small></h2>
+    <div class="jobs">
+      <div class="job">
+        <div class="when">2025.09 – 現在</div>
+        <div>
+          <h3>資料科學實習<span>A&amp;H Harmony Homes Inc.，西雅圖</span></h3>
+          <ul>
+            <li>建立 Python 自動化 ETL 與端到端 BI 方案，每週省下約 4 小時人工整理</li>
+            <li>自助式 Tableau 儀表板，分析華盛頓州各市場租金報酬與五年房價漲幅</li>
+            <li>定義投資市場 KPI（租金報酬、ROI、價格成長、風險訊號），與團隊一起把指標變成決策</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <div class="when">2025.01 – 2025.06</div>
+        <div>
+          <h3>資料分析顧問<span>A.O.S. 區域非營利組織 × 西雅圖大學</span></h3>
+          <ul>
+            <li>SQL／Python 資料管線整合 <strong>30 萬+ 會員、15 個資料來源</strong>，處理時間從數天縮到數小時</li>
+            <li>以 25 年行為資料做時間序列預測，支援 10 個區域市場的資源配置</li>
+            <li>在整體衰退 6.7% 的會員數據中，找出<strong>西語社群 +7.5%、越南語社群 +27.7%</strong> 的逆勢成長；Power BI 儀表板揭露 <strong>20% 青年留存缺口</strong>，客戶據此重新分配資源</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <div class="when">2016.07 – 2021.10</div>
+        <div>
+          <h3>資深分析師（化學／數據）<span>SGS 台灣，食品檢驗</span></h3>
+          <ul>
+            <li>主導<strong>進口食品安全數據</strong>的跨實驗室分析（5 座實驗室），整理結果供產品、工程與品保團隊做進口與上市決策</li>
+            <li>設計並執行 A/B 實驗（隨機分配、配對樣本、迴歸控制干擾因子），勝出方法縮短檢驗週期約 25%，納入 SOP</li>
+            <li>優化樣品優先順序、檢驗排程與儀器使用，報告產出加快約 30%</li>
+            <li>五年在期限壓力下產出並驗證分析數據，習慣先排除儀器漂移、操作差異與批次效應再做分析</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>我能做什麼<small>WHAT I DO</small></h2>
+    <div class="fits">
+      <div class="fit">
+        <h3>市場與顧客分析</h3>
+        <p>從銷售、顧客與評論資料裡，找出值得投資的產品與客群。</p>
+        <ul>
+          <li>客群分眾、留存與顧客終身價值</li>
+          <li>在總體數字裡找出逆勢成長或衰退的區段</li>
+          <li>評論文字挖掘，找出反覆出現的抱怨與偏好</li>
+        </ul>
+      </div>
+      <div class="fit">
+        <h3>營運與流程分析</h3>
+        <p>找出流程裡時間和成本流失的地方，並用數據證明改法有效。</p>
+        <ul>
+          <li>需求預測與資源配置</li>
+          <li>排程、瓶頸與週期時間分析</li>
+          <li>設計對照實驗，驗證新做法是否真的比較好</li>
+        </ul>
+      </div>
+      <div class="fit">
+        <h3>資料整合與 BI</h3>
+        <p>把散在各處的資料整理成一套可信、能自己跑的報表。</p>
+        <ul>
+          <li>SQL／Python 自動化資料管線</li>
+          <li>Tableau、Power BI 自助式儀表板</li>
+          <li>定義 KPI，建立團隊共用的衡量基準</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+  <section class="sec">
+    <h2>專案<small>PROJECTS</small></h2>
+    <div class="projs">
+      <div class="proj">
+        <h3>Yelp 評論情緒分析<span><a href="https://tingyu98.github.io/blogs/sentiment-analysis-yelp-reviews">專案介紹</a> · <a href="https://github.com/Tingyu98/Sentiment-Analysis-">GitHub</a></span></h3>
+        <p>分析 15 萬則餐廳評論，模型 F1 約 94%；找出「出餐延遲」與「訂單錯誤」是負評的兩大主因。</p>
+      </div>
+      <div class="proj">
+        <h3>顧客生命週期分析<span><a href="https://tingyu98.github.io/blogs/customer-analytics">專案介紹</a> · <a href="https://github.com/Tingyu98/SaaS-Product-Analytics-Retention-Analysis">GitHub</a></span></h3>
+        <p>漏斗轉換、世代留存、顧客終身價值與 RFM 分眾；找出新客上手瓶頸與第 3 到 7 個月的流失窗口，提出通路資源重配建議。</p>
+      </div>
+      <div class="proj">
+        <h3>NutritionExpert 飲食助理<span><a href="https://tingyu98.github.io/blogs/nutrition-expert">專案介紹</a> · <a href="https://github.com/Tingyu98/NutritionExpert">GitHub</a></span></h3>
+        <p>拍一張餐點照片，辨識食物、查營養資料、由 GPT-4 給出個人化飲食建議，做成可直接操作的網頁。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>學歷<small>EDUCATION</small></h2>
+    <div class="body edu">
+      <p><strong>資料科學碩士</strong>，Seattle University，美國<span class="when">2025.06</span></p>
+      <p><strong>食品科學學士、碩士</strong>，國立臺灣海洋大學<span class="when">2016.06</span></p>
+    </div>
+  </section>
+
+  
+
+</div>
+
+</body>
+</html>

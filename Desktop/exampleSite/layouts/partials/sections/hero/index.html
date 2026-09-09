@@ -16,7 +16,7 @@
                 <p class="hero-content">
                     {{ $hero.content | markdownify }}
                 </p>
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-auto h-100">
                         {{ if .Site.Params.hero.button.enable }}
                         <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
@@ -27,6 +27,16 @@
                         </a>
                         {{ end }}
                     </div>
+                    {{ if .Site.Params.hero.secondaryLink.enable }}
+                    <div class="col-auto px-0 h-100">
+                        <a href="{{ .Site.Params.hero.secondaryLink.url }}" class="btn"
+                          {{ if .Site.Params.hero.secondaryLink.newPage | default true }}
+                          target="_blank"
+                          {{ end }}>
+                            {{ $hero.secondaryLink.name | default .Site.Params.hero.secondaryLink.name }}
+                        </a>
+                    </div>
+                    {{ end }}
                     <div class="col-auto px-0 h-100">
                         {{- partial "sections/hero/social.html" . -}}
                     </div>
