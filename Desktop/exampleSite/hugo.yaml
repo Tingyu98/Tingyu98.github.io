@@ -1,6 +1,6 @@
 baseURL: "https://tingyu98.github.io/"
 languageCode: "en-us"
-title: "Beth Profile"
+title: "Ting-Yu Profile"
 theme: hugo-profile
 
 outputs:
@@ -123,7 +123,7 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "<span style='font-size:1.15rem;'>Hi, my name is</span> <span style='color:#0056b3; font-size:3.5rem; font-weight:700;'>Beth Lin</span>."
+    intro: "<span style='font-size:1.15rem;'>Hi, my name is</span> <span style='color:#0056b3; font-size:3.5rem; font-weight:700;'>Ting-Yu Lin</span>."
     title: ""
     # subtitle: "I transform complex, messy data into meaningful insights."
     content: |
@@ -140,7 +140,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1iPPfdPvzH1WQepXk1DULag13LLVzM3Ow/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1chqZ2TgBhth8Rf8R2Bkx67KCl6Gqk70k/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -149,6 +149,9 @@ params:
           url: https://github.com/Tingyu98
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/tingyu-data/
+      customIcons:
+        - icon: /images/tableau.svg
+          url: https://public.tableau.com/app/profile/ting.yu.lin4402/vizzes
 
   # About
   # about:
@@ -185,13 +188,13 @@ params:
           - name: "A&H Harmony Homes Inc."
             date: "Seattle | Jun 2025 – Present"
             content: |
-              * Designed end-to-end BI solution architecture, building automated SQL-based ETL pipelines to integrate multi-source housing data, reducing manual processing time by ~40% and enabling scalable analytics workflows.
-
-              * Developed self-service Tableau dashboards using LOD expressions, parameter filters and calculated fields to analyze rental yield, price growth, and regional trends, identifying high-return investment opportunities.
-
-              * Defined and implemented KPI frameworks (rental yield, ROI, price appreciation, demand indicators), partnering with executive stakeholders to translate business requirements into data models and analytics insights.
-
-      - company: "Data Science Consultant"
+              * Designed an end-to-end BI solution powered by automated Python ETL pipelines for multi-source housing data, saving ~4 hours/week of manual work.
+            
+              * Developed self-service Tableau dashboards with calculated fields, parameter filters, and spatial mapping to analyze rental yield and 5-year home price CAGR across Washington markets.
+            
+              * Defined custom market KPI frameworks (rental yield, ROI, price growth, investment risk signals), partnering with stakeholders to translate complex metrics into actionable investment insights. 
+            
+      - company: "Data Analytics Consultant"
         jobs:
           - name: "A.O.S x Seattle U"
             date: "Seattle | Jan 2025 – Jun 2025"
@@ -222,24 +225,33 @@ params:
           #   date: "Jan 2022 - Dec 2023"
           #   content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
 
-      - company: "Data Analyst"
-        description: "SGS is a global leader in Testing, Inspection & Certification with 94,000 staff across 140 countries."
+      - company: "Senior Analyst"
+        description: "SGS is a global leader in Testing, Inspection & Certification, with over 100,000 employees across 115 countries."
         jobs:
           - name: "Senior Data Analyst"
             date: "Jan 2019 - Oct 2021"
             content: |
-              * Applied causal inference through A/B testing to evaluate process changes, reducing total testing cycle time by 25%.
+              * Led cross-functional analysis of food safety data across 5 laboratories, structuring results for Product, Engineering, and QA to support import and market-release decisions. 
               
-              * Optimized SQL queries and streamlined data processing workflows across multiple lab operations, cutting manual processing by 30% and scaling capacity to handle 2x more test results.
-              
-              * Created Tableau dashboards to monitor compliance KPIs and detect anomalies, reducing report turnaround by 50%.
-          
-          - name: "Junior Data Analyst"
-            date: "Jul 2016 - Dec 2018"
-            content: |
-              * Analyzed chemical composition records across 9 countries to identify compliance risks and partnered with Product, Engineering, and QA teams to support $1M+ import projects.
+              * Designed and executed A/B tests on lab methods and test scheduling, using randomization, paired-sample designs, and regression to control for confounding variables; the winning method cut testing cycle time ~25% and was adopted as SOP.
 
-              * Standardized multi-source data pipelines using advanced Excel and delivered statistical insights to stakeholders, reducing reporting errors by 30% and contributing to 98% client satisfaction.
+              * Optimized testing workflows across concurrent projects through sample prioritization, dependency-aware test sequencing, and instrument scheduling, reducing report turnaround ~30%.
+
+              * Generated and validated analytical data under tight deadlines, checking for instrument drift, operator variation, and batch effects before analysis.
+
+            #  * Applied causal inference through A/B testing to evaluate process changes, reducing total testing cycle time by 25%.
+              
+            #  * Optimized SQL queries and streamlined data processing workflows across multiple lab operations, cutting manual processing by 30% and scaling capacity to handle 2x more test results.
+              
+            #  * Created Tableau dashboards to monitor compliance KPIs and detect anomalies, reducing report turnaround by 50%.
+
+
+          # - name: "Junior Data Analyst"
+          #   date: "Jul 2016 - Dec 2018"
+          #   content: |
+          #    * Analyzed chemical composition records across 9 countries to identify compliance risks and partnered with Product, Engineering, and QA teams to support $1M+ import projects.
+
+          #    * Standardized multi-source data pipelines using advanced Excel and delivered statistical insights to stakeholders, reducing reporting errors by 30% and contributing to 98% client satisfaction.
       # - company: "Apple"
       #   companyUrl: "https://example.com"
       #   jobs: 
