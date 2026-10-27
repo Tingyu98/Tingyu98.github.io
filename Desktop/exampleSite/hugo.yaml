@@ -127,12 +127,12 @@ params:
     title: ""
     # subtitle: "I transform complex, messy data into meaningful insights."
     content: |
-      I’m a **data analyst** with a **background in Data Science** and **experience in product analytics, business intelligence, and advanced analytics**. Over five years as an analyst, I worked with large datasets, built dashboards, and used data and experimentation to support business decisions. 
-      My work often involved translating complex data into clear insights that teams could act on. 
+      I’m a **data analyst** with an **M.S. in Data Science** and a background in **analytical chemistry**. I started my career analyzing food products, where my results decided whether they could reach the market. Years in a lab coat taught me two habits I still bring to every dataset: double-check a number before trusting it, and always look for a faster way to get the correct result.
       
-      I also partnered with a nonprofit organization to **improve data workflows, develop predictive models, analyze member growth trends**, and support strategic planning. 
+      My work spans **business intelligence** and **advanced analytics**, from dashboards to **predictive models** that guide planning. I also partnered with a nonprofit to clean up their data workflows and find which communities were growing, which helped shape their strategy.
+
+      Off the clock, you’ll find me at a ping-pong table or on a yoga mat. 
       
-      What I enjoy most is digging into raw data, uncovering what it’s really saying, and using that to help people make better decisions.
     image: /images/hero--.png
     bottomImage:
       enable: true
